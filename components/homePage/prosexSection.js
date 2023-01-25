@@ -17,7 +17,7 @@ const Container = styled.div`
 		justify-content: center;
 		align-items: center;
 		margin: 0 auto;
-		height: 100%;
+		height: 100vh;
 	}
 `;
 const ContentText = styled.div`

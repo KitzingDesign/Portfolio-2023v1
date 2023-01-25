@@ -22,7 +22,7 @@ const Container = styled.div`
 	}
 `;
 const Content = styled.div`
-	height: inherit;
+	height: 100vh;
 	align-items: center;
 	display: flex;
 	flex-direction: column;

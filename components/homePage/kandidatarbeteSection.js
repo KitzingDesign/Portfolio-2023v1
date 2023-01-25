@@ -16,7 +16,7 @@ const Container = styled.div`
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		height: 100%;
+		height: 100vh;
 	}
 	@media (orientation: portrait) and (max-width: 34.5em) {
 	}
