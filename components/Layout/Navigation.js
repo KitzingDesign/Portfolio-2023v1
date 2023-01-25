@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { MenuOutline, CloseOutline } from "react-ionicons";
-import Image from "next/image";
-
+import { FiMenu } from "react-icons/fi";
+import { FiX } from "react-icons/fi";
 import styles from "./Navigation.module.css";
 
 const Nav = () => {
@@ -83,7 +82,7 @@ const Nav = () => {
 					</ul>
 				</nav>
 				<div className={styles.mobileNav}>
-					<MenuOutline
+					<FiMenu
 						name="menu"
 						color={"#00000"}
 						height="4.8rem"
@@ -91,7 +90,8 @@ const Nav = () => {
 						onClick={() => handleMenu()}
 						className={menu ? `${styles.mobileNavMenu}` : null}
 					/>
-					<CloseOutline
+
+					<FiX
 						name="close"
 						color={"#00000"}
 						height="4.8rem"
