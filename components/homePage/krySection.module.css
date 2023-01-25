@@ -1,0 +1,164 @@
+/* .container {
+	height: 100vh;
+	background-color: black;
+}
+
+.container h2 {
+	width: 80vw;
+	margin: 0 auto;
+	color: White;
+
+	font-size: 8rem;
+} */
+
+/* .appar {
+	width: 80vw;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 2.4rem;
+} */
+
+/* .content {
+	height: inherit;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 10rem;
+} */
+
+/* .link:hover {
+	font-style: italic;
+	cursor: pointer;
+} */
+
+/* .icon {color: white;
+	height: 9.6rem;
+	margin-left: 1rem;
+} */
+
+/* .projectLink {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+
+.projectLink p {
+	font-size: 4.8rem;
+}
+
+.projectLink:link,
+.projectLink:visited {
+	box-sizing: inline-block;
+	color: white;
+
+	text-decoration: none;
+	cursor: pointer;
+} */
+
+.animationOne {
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-name: animation;
+
+	animation-duration: 0.8s;
+	animation-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
+	animation-fill-mode: forwards;
+	animation-delay: 0.4s;
+}
+.animationTwo {
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-name: animation;
+
+	animation-duration: 0.8s;
+	animation-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
+	animation-fill-mode: forwards;
+	animation-delay: 0.6s;
+}
+.animationThree {
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-name: animation;
+
+	animation-duration: 0.8s;
+	animation-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
+	animation-fill-mode: forwards;
+	animation-delay: 0.8s;
+}
+.animationFour {
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-name: animation;
+
+	animation-duration: 0.8s;
+	animation-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
+	animation-fill-mode: forwards;
+	animation-delay: 1s;
+}
+.animationFive {
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-name: animation;
+
+	animation-duration: 0.8s;
+	animation-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
+	animation-fill-mode: forwards;
+	animation-delay: 1.2s;
+}
+
+@keyframes animation {
+	from {
+		transform: translate(0, 20vh);
+	}
+	to {
+		opacity: 1;
+		transform: translate(0, 0);
+	}
+}
+
+@media (max-width: 51em) and (orientation: landscape) {
+	/* .container h2 {
+		font-size: 6.4rem;
+	} */
+	/* .content {
+		gap: 4rem;
+	} */
+	/* .icon {
+		height: 6.4rem;
+	} */
+	/* .projectLink p {
+		font-size: 3.6rem;
+	} */
+}
+
+@media (orientation: portrait) {
+	/* .container {
+		height: 100%;
+	} */
+
+	/* .projectLink p {
+		font-size: 4.8rem;
+	} */
+	/* .icon {
+		height: 6.4rem;
+		margin-left: 1rem;
+	} */
+	/* .content {
+		gap: 6vh;
+	} */
+	/* .appar {
+		grid-template-columns: repeat(6, 1fr);
+
+		gap: 2.4rem;
+	} */
+
+	/* .item {
+		grid-column: span 2;
+	}
+	.item:nth-last-child(2) {
+		grid-column: 2 / span 2;
+	} */
+}

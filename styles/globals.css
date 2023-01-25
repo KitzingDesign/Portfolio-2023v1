@@ -1,0 +1,209 @@
+/*
+
+--- 01 TYPOGRAPHY SYSTEM
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights
+Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
+
+- Line heights
+Default:
+Small: 
+Medium: 1.2
+Paragraph default: 
+Large: 
+
+- Letter spacing
+-0.5px
+0.75px
+
+--- 02 COLORS
+- Primary: 
+#fed000; -Hertz-Section
+#E49059; -Kry-Section
+
+- Tints:
+
+
+- Shades: 
+
+- Accents:
+
+- Greys
+#d3d3d3 - gray on carousel
+
+
+--- 05 SHADOWS
+0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+
+--- 06 BORDER-RADIUS
+Default: 
+Medium: 
+
+--- 07 WHITESPACE
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap");
+
+:root {
+	--color: white;
+
+	--app-height: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 16px;
+	position: relative;
+	overflow-x: hidden;
+	max-width: 100vw;
+}
+
+body {
+	font-size: 62.5%;
+	margin: 0;
+	font-family: "Open Sans", sans-serif;
+	height: 100%;
+	height: -webkit-fill-available;
+}
+
+p {
+	font-size: 2.4rem;
+	line-height: 1.2;
+}
+
+h2 {
+	font-size: 4.4rem;
+}
+
+#swiper-color .swiper-button-next {
+	color: #d3d3d3;
+}
+#swiper-color .swiper-button-prev {
+	color: #d3d3d3;
+}
+
+.swiper-pagination-bullet-active {
+	background-color: #000 !important;
+}
+
+.slide {
+	position: absolute;
+	z-index: 100;
+	height: 100vh;
+	width: 100%;
+	background: white;
+}
+
+.slide-in {
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100%;
+	background: var(--color);
+	transform-origin: left;
+}
+
+.slide-out {
+	position: absolute;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100%;
+	background: var(--color);
+	transform-origin: right;
+}
+
+[data-aos="new-animation"] {
+	opacity: 0;
+	transform: translate(0, 30vh);
+	transition-property: transform, opacity, animate;
+}
+[data-aos="new-animation"].aos-animate {
+	transform: translate(0, 0vh);
+	opacity: 1;
+	transition-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+/* Hide scrollbar  */
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+.react-rotating-text-cursor {
+	animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s
+		infinite;
+}
+
+@keyframes blinking-cursor {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@media (max-width: 100em) {
+	html {
+		font-size: 52%;
+	}
+}
+
+@media (max-width: 81.25em) {
+	html {
+		font-size: 42%;
+	}
+}
+
+@media (max-width: 59em) {
+	html {
+		font-size: 35%;
+	}
+}
+
+@media (max-width: 38em) {
+	html {
+		font-size: 30%;
+	}
+
+	.swiper-pagination-bullet {
+		transform: scale(0.5) translateY(2.4rem) !important;
+		margin: 0rem 0.01rem !important;
+	}
+
+	/* .swiper-pagination-bullet {
+		transform: scale(0.33);
+	} */
+}
+
+@media (max-width: 28em) {
+	html {
+		font-size: 25%;
+	}
+	.swiper-pagination-bullet {
+		transform: scale(0.4) translateY(6.2rem) !important;
+		margin: 0rem -0.3rem !important;
+	}
+}

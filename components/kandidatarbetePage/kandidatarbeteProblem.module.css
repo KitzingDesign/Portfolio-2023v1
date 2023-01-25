@@ -1,0 +1,119 @@
+/* 
+font-size:
+h2: 4.4rem
+p: 1.6rem
+
+
+*/
+
+.container {
+	margin-top: 12.8rem;
+	width: 100vw;
+	display: grid;
+	grid-template-columns: 3fr 2fr;
+	align-items: center;
+}
+
+.green {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	height: 110rem;
+
+	background-color: #024f3d;
+}
+
+.greenContent {
+	opacity: 0;
+	width: 80%;
+}
+
+.green h2 {
+	margin-bottom: 2.4rem;
+	font-size: 4.4rem;
+}
+
+.heading {
+	color: white;
+	margin: 3.2rem;
+}
+
+.lists {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+
+.img {
+	display: flex;
+	justify-content: center;
+}
+
+.imgContainer {
+	width: 140%;
+}
+
+.animation {
+	animation-fill-mode: forwards;
+	animation-name: green;
+	animation-duration: 1s;
+	animation-timing-function: cubic-bezier(0.45, 0, 0.55, 1);
+}
+.fade {
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-name: fade;
+	animation-duration: 1.5s;
+	animation-timing-function: cubic-bezier(0.45, 0, 0.55, 1);
+	animation-delay: 1s;
+}
+
+@keyframes green {
+	from {
+		transform: translate(-100%, 0);
+	}
+	to {
+		transform: translate(0vw, 0);
+	}
+}
+@keyframes fade {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@media (max-width: 112em) {
+	.greenContent p {
+		font-size: 2rem !important;
+		line-height: 1.2;
+	}
+}
+
+@media (max-width: 88em) {
+	.container {
+		grid-template-columns: 1fr;
+		margin-top: 24px;
+	}
+	.green {
+		height: 700px;
+	}
+	.greenContent {
+		width: 70%;
+	}
+	.imgContainer {
+		display: none;
+	}
+}
+
+@media (max-width: 59em) {
+	.green {
+		height: 600px;
+	}
+	.greenContent {
+		width: 90%;
+	}
+}

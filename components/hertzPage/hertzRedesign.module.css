@@ -1,0 +1,29 @@
+.container {
+	max-width: 100vw;
+	overflow: hidden;
+	margin-top: 8.6rem;
+}
+
+.carSvg {
+	margin-bottom: -0.5rem;
+	width: 6vw;
+}
+.animation {
+	animation-fill-mode: forwards;
+	animation-name: bil;
+	animation-duration: 3s;
+	animation-timing-function: cubic-bezier(0.45, 0, 0.55, 1);
+}
+
+.swiper-button-next {
+	fill: black;
+}
+
+@keyframes bil {
+	from {
+		transform: translate(-4vw, 0);
+	}
+	to {
+		transform: translate(104vw, 0);
+	}
+}

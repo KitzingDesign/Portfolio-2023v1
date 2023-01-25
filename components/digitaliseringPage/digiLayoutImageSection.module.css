@@ -1,0 +1,14 @@
+.container {
+	width: 70vw;
+	margin: 0 auto;
+}
+
+.imgContainer {
+	width: 100%;
+}
+
+@media (max-width: 32em) {
+	.container {
+		width: 80vw;
+	}
+}

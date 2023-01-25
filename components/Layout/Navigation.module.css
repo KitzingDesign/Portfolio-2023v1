@@ -1,0 +1,205 @@
+.unSticky {
+	position: absolute;
+	z-index: 10;
+	font-size: 2.4rem;
+	font-weight: bold;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	height: 8rem;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	display: flex;
+	align-items: center;
+	background-color: white;
+	/* box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03); */
+	font-size: 2.4rem;
+	font-weight: bold;
+
+	width: 100vw;
+	padding-top: 0;
+	padding-bottom: 0;
+
+	height: 6.4rem;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 80vw;
+	height: 4.8rem;
+	margin: 0 auto;
+}
+
+.container ul {
+	display: flex;
+	gap: 2.4rem;
+}
+
+.container:hover ul {
+	cursor: pointer;
+}
+
+.img {
+	width: 3.4rem;
+}
+
+.img:hover {
+	cursor: pointer;
+}
+
+.link {
+	position: relative;
+	box-sizing: inline-block;
+}
+
+.link:link,
+.link:visited {
+	font-size: 1.6rem;
+	border: none;
+	font-style: italic;
+	color: black;
+
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.link:after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: black;
+	transform-origin: bottom right;
+	transition: transform 0.25s ease-out;
+}
+
+.link:hover:after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
+}
+
+.mobileNav {
+	display: none;
+}
+
+.mobileNavMenu {
+	display: none;
+}
+.mobileNavClose {
+	display: none;
+}
+
+@media (max-width: 59em) {
+	.mobileNav {
+		display: inherit;
+	}
+
+	.mainNav {
+		position: absolute;
+		top: 0%;
+		left: 0%;
+		width: 100vw;
+		height: 100vh;
+		background-color: rgba(255, 255, 255, 0.9);
+		z-index: -10;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		pointer-events: none;
+
+		opacity: 0;
+	}
+	.mainNav ul {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		font-size: 4.8rem;
+		gap: 4.8rem;
+	}
+	.mainNav p {
+		font-size: 9.6rem;
+	}
+
+	.navVisible {
+		opacity: 0;
+		pointer-events: inherit;
+		animation-fill-mode: forwards;
+		animation-name: animation;
+
+		animation-duration: 0.8s;
+		animation-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
+		animation-fill-mode: forwards;
+	}
+	.navInvisible {
+		opacity: 1;
+		animation-fill-mode: forwards;
+		animation-name: animationOut;
+
+		animation-duration: 0.8s;
+		animation-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
+		animation-fill-mode: forwards;
+	}
+
+	.containerAnimationIn {
+		animation-fill-mode: forwards;
+		animation-name: logoIn;
+
+		animation-duration: 0.8s;
+		animation-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
+		animation-fill-mode: forwards;
+	}
+	.containerAnimationOut {
+		animation-fill-mode: forwards;
+		animation-name: logoOut;
+
+		animation-duration: 0.8s;
+		animation-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
+		animation-fill-mode: forwards;
+	}
+
+	@keyframes animation {
+		from {
+			transform: translate(0, -20vh);
+		}
+		to {
+			opacity: 1;
+			transform: translate(0, 0);
+		}
+	}
+	@keyframes animationOut {
+		from {
+			transform: translate(0, 0);
+		}
+		to {
+			opacity: 0;
+			transform: translate(0, -20vh);
+		}
+	}
+	@keyframes logoIn {
+		from {
+			transform: translate(0, 0);
+		}
+		to {
+			transform: translate(37vw, 25vh) scale(2);
+		}
+	}
+	@keyframes logoOut {
+		from {
+			transform: translate(37vw, 25vh) scale(3);
+		}
+		to {
+			transform: translate(0, 0);
+		}
+	}
+}

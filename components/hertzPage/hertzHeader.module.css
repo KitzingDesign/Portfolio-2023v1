@@ -1,0 +1,144 @@
+/* .container {
+	height: 100vh;
+	max-width: 95vw;
+	margin: 0 auto;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+} */
+
+/* .headings {
+	padding-bottom: 100px;
+	position: relative;
+} */
+
+/* .headImg {
+	width: 55vw;
+	z-index: -1;
+}
+.nr {
+	position: absolute;
+	right: 0%;
+	bottom: 50%;
+	transform: translateY(140%);
+	font-size: 24vw;
+	line-height: 0.6;
+	color: #0b0a11;
+	opacity: 0.09;
+} */
+
+/* .vertical {
+	padding-bottom: 50px;
+	writing-mode: tb-rl;
+	transform: rotate(180deg);
+} */
+
+/* .year {
+	color: #fed000;
+	font-weight: 500;
+	font-size: 20vw;
+
+	opacity: 0;
+	animation-name: year;
+	animation-duration: 0.4s;
+	animation-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
+	animation-fill-mode: forwards;
+	animation-delay: 0.5s;
+} */
+
+/* .season {
+	text-transform: uppercase;
+	text-align: right;
+	font-weight: 400;
+	line-height: 30%;
+	font-size: 7vw;
+	margin-bottom: 20px;
+
+	text-decoration: underline black 0.5rem;
+
+	opacity: 0;
+	animation-name: season;
+	animation-duration: 0.4s;
+	animation-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
+	animation-fill-mode: forwards;
+	animation-delay: 0.7s;
+} */
+
+/* .above {
+	position: absolute;
+	z-index: 5;
+	left: 7vw;
+	font-size: 5vw;
+	bottom: 120px;
+
+	opacity: 0;
+	animation-name: above;
+	animation-duration: 0.4s;
+	animation-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
+	animation-fill-mode: forwards;
+	animation-delay: 0.9s;
+} */
+
+/* @keyframes year {
+	from {
+		opacity: 0;
+		transform: translate(10vw, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate(0, 0);
+	}
+}
+@keyframes season {
+	from {
+		opacity: 0;
+		transform: translate(10vw, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate(0, 0);
+	}
+}
+@keyframes above {
+	from {
+		opacity: 0;
+		transform: translate(-10vw, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate(0, 0);
+	}
+} */
+
+@media (max-width: 84em) {
+	/* .container {
+		height: inherit;
+	} */
+	.nr {
+	}
+	.above {
+		bottom: 100px;
+	}
+	.season {
+		margin-bottom: 70px;
+	}
+}
+
+/* @media (max-width: 75em) {
+	.above {
+		bottom: 90px;
+	}
+	.season {
+		margin-bottom: 40px;
+	}
+}
+
+@media (max-width: 50em) {
+	.above {
+		bottom: 90px;
+	}
+	.season {
+		margin-bottom: 20px;
+	}
+} */

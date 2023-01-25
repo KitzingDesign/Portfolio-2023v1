@@ -1,0 +1,131 @@
+.containerUpper {
+	width: 100vw;
+
+	padding: 9.6rem 0;
+	margin-top: 9.6rem;
+
+	background-color: #024f3d;
+	overflow: hidden;
+}
+
+.textContainer {
+	color: white;
+	margin: 0 auto;
+	width: 70vw;
+}
+
+.textContainer h2 {
+	margin-bottom: 0.8rem;
+}
+.textContainer p {
+	margin: 2.4rem 0 9.6rem 0;
+}
+
+.divider {
+	background-color: white;
+	height: 0.3rem;
+}
+
+.imgContainer {
+	position: relative;
+}
+
+.img {
+	width: 100vw;
+}
+.imgContainer img:hover {
+	webkit-filter: blur(2px); /* Chrome, Safari, Opera */
+	filter: blur(2px);
+}
+
+.frame {
+	pointer-events: none;
+	border: white 2px solid;
+	padding: 20vw 42vw;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.frame h1 {
+	color: white;
+	font-size: 12.8rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.container {
+	margin: 0 auto;
+	width: 70vw;
+
+	margin-top: 8rem;
+}
+
+.container h2 {
+	margin-bottom: 1.6rem;
+}
+.container p {
+	margin-top: 1.2rem;
+}
+
+.styrContainer {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 2.4rem;
+}
+.imgStyr {
+	width: 100%;
+}
+
+.kollage {
+	padding-top: 1.6rem;
+	margin: 0 auto;
+	width: 70vw;
+}
+
+.kollageContainer {
+	margin: 0 auto;
+	width: 70vw;
+
+	margin-top: 12.8rem;
+	margin-bottom: 9.6rem;
+}
+
+.kollageContainer p {
+	margin-top: 2.4rem;
+	margin-bottom: 6.4rem;
+}
+
+@media (max-width: 75em) {
+	.kollage {
+	}
+	.frame h1 {
+		font-size: 6.4rem;
+	}
+}
+
+@media (max-width: 44em) {
+	.containerUpper {
+		padding: 48px 0;
+		margin-top: 48px;
+	}
+	.textContainer p {
+		margin: 24px 0 48px 0;
+	}
+}
+
+@media (max-width: 26em) {
+	.container {
+		width: 80vw;
+	}
+	.kollageContainer {
+		width: 80vw;
+	}
+	.textContainer {
+		width: 80vw;
+	}
+}

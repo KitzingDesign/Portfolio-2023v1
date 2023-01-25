@@ -1,0 +1,152 @@
+/* .container {
+	padding-top: 10rem;
+	max-width: 70vw;
+	margin: 0 auto;
+} */
+
+/* .titelAbove {
+	display: inline-block;
+	font-size: 8rem;
+	margin-bottom: 3.4rem;
+	color: white;
+} */
+/* .backgroundTitle {
+	position: absolute;
+	background-color: #c1e1c1;
+	width: 40%;
+	height: 20rem;
+	transform: translate(0, -17rem);
+
+	left: 0;
+	z-index: -1;
+	clip-path: polygon(0 7%, 92% 0, 80% 75%, 0% 94%);
+} */
+/* .flexText {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	gap: 6.4rem;
+} */
+
+.textDiv {
+	opacity: 0;
+}
+
+.textOne {
+	animation-fill-mode: forwards;
+	animation-name: text;
+	animation-duration: 1.2s;
+	animation-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
+	animation-delay: 0;
+}
+
+.flexSkills {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+.flexSkills h2 {
+	font-size: 2.4rem;
+	font-weight: 600;
+	margin-bottom: 3.2rem;
+	margin-top: 2.4rem;
+}
+.flexSkills h2:before,
+.flexSkills h2::after {
+	display: inline-block;
+	content: "";
+	border-top: 0.2rem solid black;
+	width: 4rem;
+	margin: 0 1rem;
+	transform: translateY(-0.5rem);
+}
+
+.skillsContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	gap: 1.2rem;
+}
+
+.educationContainer {
+	width: 100vw;
+	background-color: #c1e1c1;
+	margin-top: 8rem;
+	color: white;
+}
+.educationContainer h2 {
+	font-size: 4.8rem;
+	margin-bottom: 1.6rem;
+}
+.educationContainer h3 {
+	font-size: 3.2rem;
+}
+.educationContainer p {
+	padding-bottom: 10rem;
+
+	font-size: 2.4rem;
+}
+
+.emailContainer {
+	margin-bottom: 6.4rem;
+}
+
+.emailContainer h2 {
+	font-size: 4.8rem;
+	margin-bottom: 1.6rem;
+}
+
+.emailContainer p {
+	width: 70%;
+	font-size: 2.4rem;
+}
+
+@keyframes text {
+	from {
+		opacity: 0;
+		transform: translate(0, 100vh);
+	}
+	to {
+		opacity: 1;
+		transform: translate(0, 0);
+	}
+}
+
+@media (max-width: 81.25em) {
+	.flexText {
+		gap: 3.2rem;
+	}
+}
+
+@media (max-width: 59em) {
+	.flexText {
+		display: block;
+	}
+
+	.flexText p {
+		padding-right: 0rem;
+		border-right: none;
+	}
+}
+@media (max-width: 48em) {
+	.backgroundTitle {
+		width: 50%;
+		height: 110px;
+		transform: translate(0, -105px);
+	}
+}
+
+@media (max-width: 25em) {
+	.container {
+		max-width: 85vw;
+	}
+
+	.emailContainer h2 {
+		font-size: 3.2rem;
+	}
+	.emailContainer p {
+		width: 100%;
+	}
+}

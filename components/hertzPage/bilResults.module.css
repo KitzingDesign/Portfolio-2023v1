@@ -1,0 +1,35 @@
+.container {
+	width: 70vw;
+	margin: 0 auto;
+	margin-top: 6.4rem;
+	margin-bottom: 4.8rem;
+}
+
+.grid {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	gap: 4.8rem;
+
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 4.8rem;
+	padding-top: 3.2rem;
+	transform: translateX(-4.8rem);
+}
+
+.grid img {
+	width: 70%;
+}
+
+.text h3 {
+	margin-top: 3.2rem;
+	margin-bottom: 1.6rem;
+	font-size: 2.4rem;
+}
+
+@media (max-width: 25em) {
+	.container {
+		width: 80vw;
+	}
+}
