@@ -9,7 +9,7 @@ import styled from "@emotion/styled";
 const Container = styled.div`
 	height: 100vh;
 	background-color: black;
-	height: inherit;
+
 	align-items: center;
 	display: flex;
 	flex-direction: column;
@@ -26,13 +26,11 @@ const Content = styled.div`
 	align-items: center;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	gap: 10rem;
+	justify-content: space-around;
 	& > h2 {
 		width: 80vw;
 		margin: 0 auto;
 		color: White;
-
 		font-size: 8rem;
 	}
 	@media (max-width: 51em) and (orientation: landscape) {
@@ -46,6 +44,7 @@ const Content = styled.div`
 		& > h2 {
 			font-size: 6.4rem;
 		}
+		justify-content: center;
 	}
 `;
 const Appar = styled.div`
@@ -54,12 +53,10 @@ const Appar = styled.div`
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
 	gap: 2.4rem;
-
 	@media (max-width: 51em) and (orientation: landscape) {
 	}
 	@media (orientation: portrait) {
 		grid-template-columns: repeat(6, 1fr);
-
 		gap: 2.4rem;
 	}
 `;
@@ -86,14 +83,12 @@ const ProjectLink = styled.div`
 	color: white;
 	box-sizing: inline-block;
 	color: white;
-
 	text-decoration: none;
 	cursor: pointer;
 `;
 
 const UtforskaText = styled.p`
 	font-size: 4.8rem;
-
 	@media (max-width: 51em) and (orientation: landscape) {
 		font-size: 3.6rem;
 	}
@@ -104,7 +99,6 @@ const UtforskaText = styled.p`
 
 const Arrow = styled(ArrowRightIcon)`
 	color: white;
-
 	height: 9.6rem;
 	margin-left: 1rem;
 	@media (max-width: 51em) and (orientation: landscape) {
@@ -124,9 +118,7 @@ const KrySection = (props) => {
 	return (
 		<Container>
 			<Content>
-				<h2>
-					En Digitaliserad <br /> Värld
-				</h2>
+				<h2>En Digitaliserad Värld</h2>
 				<Appar>
 					<Item>
 						<div
