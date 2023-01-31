@@ -18,7 +18,7 @@ const Container = styled.div`
 	@media (max-width: 51em) and (orientation: landscape) {
 	}
 	@media (orientation: portrait) {
-		height: inherit;
+		height: 100vh;
 	}
 `;
 const Content = styled.div`
