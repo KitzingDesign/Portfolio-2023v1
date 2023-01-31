@@ -123,15 +123,10 @@ const AboutContent = () => {
 							Som designer är jag en nyfiken prick, jag vill alltid lära mig nya
 							saker och utmana mig själv och jag älskar att jobba i olika
 							sammanställningar för att få nya perspektiv.
-							<br /> <br /> Sommaren (2021) tog jag min kandidatexamen från
-							Teknisk Design på Chalmers, där lärde jag mig vikten i att alltid
-							ha användaren i centrum, det är ju trots allt för dem arbetet
-							görs. Under min kandidat insåg jag att mitt främsta intresse var
-							digitala produkter med allt vad det innefattar. För att få en
-							djupare förståelse inom området tog jag ett sabbatsår där jag
-							under hösten lärde mig front end utveckling på egen hand. Genom
-							att sitta med det fick jag en ännu större bekräftelse att det
-							digitala produktframtagandet är rätt för mig.
+							<br /> <br /> För tillfället pluggar jag min master inom
+							interaktionsdesign på Chalmers(MSc. Interaction Design and
+							Technologies) där jag lär mig allt som har med UX och
+							användarevänlighet att göra.
 						</Text>
 					</div>
 					<div className={styles.flexSkills}>
@@ -169,13 +164,20 @@ const AboutContent = () => {
 			</Container>
 			<div className={styles.educationContainer} data-aos="fade-right">
 				<Container>
-					<h2>Utbildning</h2>
-					<h3>Chalmers University of Technology</h3>
+					<h2>Education</h2>
+					<h3>
+						MSc. Interaction Design and Technologies{" "}
+						<i>(2022-Expected Graduation 2024)</i>
+					</h3>
 					<p>
-						MSc. Interaction Design and Technologies (2022- Expected Graduation
-						2024)
+						<i>Chalmers University of Technology</i>
 					</p>
-					<p>BSc. Industrial Design Engineering (2018-2021)</p>
+					<h3>
+						BSc. Industrial Design Engineering <i>(2018-2021)</i>
+					</h3>
+					<p>
+						<i>Chalmers University of Technology</i>
+					</p>
 				</Container>
 			</div>
 			<Container data-aos="new-animation">

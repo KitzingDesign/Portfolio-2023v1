@@ -75,6 +75,7 @@
 	background-color: #c1e1c1;
 	margin-top: 8rem;
 	color: white;
+	padding-bottom: 10vh;
 }
 .educationContainer h2 {
 	font-size: 4.8rem;
@@ -84,7 +85,7 @@
 	font-size: 3.2rem;
 }
 .educationContainer p {
-	padding-bottom: 10rem;
+	padding-bottom: 2rem;
 
 	font-size: 2.4rem;
 }
