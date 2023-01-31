@@ -64,6 +64,8 @@ const HomeHeader = () => {
 		cursor: pointer;
 		&:hover {
 			background: white;
+			padding: 1.4rem 3rem;
+			border: 0.2rem black solid;
 			box-shadow: 2px black;
 			color: black;
 			cursor: pointer;
@@ -83,10 +85,9 @@ const HomeHeader = () => {
 						<TextLoop />
 
 						<p>
-							Jag är en produktdesigner med huvudfokus på digitala produkter och
-							UX/UI. Min filosofi och det jag genuint brinner för är att
-							utveckla kreativa produkter och tjänster där användaren alltid
-							står i centrum.
+							En UX Designer med rötter inom produkt utveckling. Min filosofi
+							och det jag genuint brinner för är att utveckla kreativa produkter
+							och tjänster där användaren alltid står i centrum.
 						</p>
 						<Link href="/about">
 							<Btn>Mer om mig</Btn>
