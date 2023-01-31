@@ -30,7 +30,7 @@ const Container = styled.div`
 		height: 100vh;
 	}
 	@media (orientation: portrait) and (max-width: 34.5em) {
-		height: 100vh;
+		height: inherit;
 	}
 `;
 const TextContainer = styled.div`
