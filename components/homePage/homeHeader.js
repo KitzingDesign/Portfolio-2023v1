@@ -18,7 +18,7 @@ const HomeHeader = () => {
 		justify-content: space-between;
 		align-items: center;
 		@media (orientation: portrait) {
-			height: 100%;
+			height: inherit;
 		}
 	`;
 	const HeaderElement = styled.div`
