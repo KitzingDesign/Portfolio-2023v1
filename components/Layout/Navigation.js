@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { FiMenu } from "react-icons/fi";
-import { FiX } from "react-icons/fi";
+import { FiMenu, FiX } from "react-icons/fi";
 import styles from "./Navigation.module.css";
 
 const Nav = () => {
@@ -85,8 +84,7 @@ const Nav = () => {
 					<FiMenu
 						name="menu"
 						color={"#00000"}
-						height="4.8rem"
-						width="4.8rem"
+						size={25}
 						onClick={() => handleMenu()}
 						className={menu ? `${styles.mobileNavMenu}` : null}
 					/>
@@ -94,8 +92,7 @@ const Nav = () => {
 					<FiX
 						name="close"
 						color={"#00000"}
-						height="4.8rem"
-						width="4.8rem"
+						size={25}
 						onClick={() => handleMenu()}
 						className={menu ? null : `${styles.mobileNavMenu} `}
 					/>
