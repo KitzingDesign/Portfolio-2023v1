@@ -19,6 +19,7 @@ const HomeHeader = () => {
 		align-items: center;
 		@media (orientation: portrait) {
 			height: 100vh;
+			max-height: -webkit-fill-available;
 		}
 	`;
 	const HeaderElement = styled.div`

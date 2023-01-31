@@ -19,6 +19,7 @@ const Container = styled.div`
 	}
 	@media (orientation: portrait) {
 		height: 100vh;
+		max-height: -webkit-fill-available;
 	}
 `;
 const Content = styled.div`

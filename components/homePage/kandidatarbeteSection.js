@@ -20,6 +20,7 @@ const Container = styled.div`
 	}
 	@media (orientation: portrait) and (max-width: 34.5em) {
 		height: 100vh;
+		max-height: -webkit-fill-available;
 	}
 `;
 const TextContainer = styled.div`

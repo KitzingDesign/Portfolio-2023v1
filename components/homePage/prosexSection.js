@@ -18,6 +18,7 @@ const Container = styled.div`
 		align-items: center;
 		margin: 0 auto;
 		height: 100vh;
+		max-height: -webkit-fill-available;
 	}
 `;
 const ContentText = styled.div`
