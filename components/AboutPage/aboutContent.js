@@ -171,7 +171,11 @@ const AboutContent = () => {
 				<Container>
 					<h2>Utbildning</h2>
 					<h3>Chalmers University of Technology</h3>
-					<p>Kandidat, Teknisk Design (2018-2021)</p>
+					<p>
+						MSc. Interaction Design and Technologies (2022- Expected Graduation
+						2024)
+					</p>
+					<p>BSc. Industrial Design Engineering (2018-2021)</p>
 				</Container>
 			</div>
 			<Container data-aos="new-animation">
