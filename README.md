@@ -1,4 +1,4 @@
-This is an erlier stage of the code for my portfolio www.jakobkitzing.com
+This is the code for my portfolio www.jakobkitzing.com
 
 The code is made with react/next.js.
 
