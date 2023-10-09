@@ -166,6 +166,12 @@ const AboutContent = () => {
 				<Container>
 					<h2>Education</h2>
 					<h3>
+						MSc. Computer Sience <i>(Exchange studies fall 2023)</i>
+					</h3>
+					<p>
+						<i>Institution Tecnico Lisboa</i>
+					</p>
+					<h3>
 						MSc. Interaction Design and Technologies{" "}
 						<i>(2022-Expected Graduation 2024)</i>
 					</h3>
