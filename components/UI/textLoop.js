@@ -21,7 +21,7 @@ const TextLoop = () => {
 						"UX-Designer",
 						"UI-Designer",
 						"Product Designer",
-						"Frontend Developer",
+						"Human Researcher",
 					]}
 				/>
 			</h1>

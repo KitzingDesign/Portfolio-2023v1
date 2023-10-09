@@ -20,14 +20,20 @@ const TheLink = styled.div`
 	box-sizing: inline-block;
 	font-size: 1.6rem;
 	border: none;
-	font-style: italic;
-	color: black;
+	color: white;
+	padding: 1.2rem 1.8rem;
+	background-color: black;
 
 	text-decoration: none;
 	border-radius: 6px;
 	cursor: pointer;
+
 	&:hover {
-		color: gray;
+		border: solid black 0.2rem;
+		padding: 1rem 1.6rem;
+		background: white;
+		color: black;
+		cursor: pointer;
 	}
 `;
 
