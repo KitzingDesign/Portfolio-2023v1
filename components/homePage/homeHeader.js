@@ -21,6 +21,10 @@ const HomeHeader = () => {
 			height: 100vh;
 			max-height: -webkit-fill-available;
 		}
+		@media (orientation: portrait) and (max-width: 34.5em) {
+			height: 100vh;
+			max-height: -webkit-fill-available;
+		}
 	`;
 	const HeaderElement = styled.div`
 		display: flex;
@@ -30,7 +34,7 @@ const HomeHeader = () => {
 		justify-content: center;
 		@media (orientation: portrait) {
 			flex-direction: column-reverse;
-		} ;
+		}
 	`;
 
 	const HeaderText = styled.div`
