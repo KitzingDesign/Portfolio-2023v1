@@ -3,15 +3,22 @@ import Image from "next/image";
 
 import SwiperCore, { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { useState, useEffect } from "react";
 
 SwiperCore.use([Pagination]);
 
 // Import Swiper styles
 import "swiper/css";
+import "swiper/css/navigation";
 
 import "swiper/css/pagination";
 
 const KnowledgeContent = () => {
+	const [domLoaded, setDomLoaded] = useState(false);
+
+	useEffect(() => {
+		setDomLoaded(true);
+	}, []);
 	return (
 		<div className={styles.container}>
 			<div>
@@ -25,64 +32,66 @@ const KnowledgeContent = () => {
 				</p>
 			</div>
 			<div className={styles.swiperContainer} data-aos="fade-up">
-				<Swiper
-					id="swiper-color"
-					slidesPerView={1}
-					spaceBetween={30}
-					loop={true}
-					pagination={{
-						clickable: true,
-					}}
-					navigation={true}
-					className={styles.imgContainer}
-				>
-					<SwiperSlide>
-						<Image
-							width="100%"
-							height="60%"
-							layout="responsive"
-							objectFit="contain"
-							src="/knowledge/KnowledgeFirstView.png"
-							alt="HomePage New"
-						/>
-						<p className={styles.descriptionImg}>Startsida</p>
-					</SwiperSlide>
-					<SwiperSlide>
-						<Image
-							width="100%"
-							height="60%"
-							layout="responsive"
-							objectFit="contain"
-							src="/Car-rental/HertzNew-2.png"
-							alt="RentalPage New"
-						/>
-						<p className={styles.descriptionImg}>
-							Uppgifter gällande utrhyrningen
-						</p>
-					</SwiperSlide>
-					<SwiperSlide>
-						<Image
-							width="100%"
-							height="60%"
-							layout="responsive"
-							objectFit="contain"
-							src="/Car-rental/HertzNew-3.png"
-							alt="Choose Car Page New"
-						/>
-						<p className={styles.descriptionImg}>Val av Bil</p>
-					</SwiperSlide>
-					<SwiperSlide>
-						<Image
-							width="100%"
-							height="60%"
-							layout="responsive"
-							objectFit="contain"
-							src="/Car-rental/HertzNew-4.png"
-							alt="Payment Page New"
-						/>
-						<p className={styles.descriptionImg}>Betalningsinfromation</p>
-					</SwiperSlide>
-				</Swiper>
+				{domLoaded && (
+					<Swiper
+						id="swiper-color"
+						slidesPerView={1}
+						spaceBetween={30}
+						loop={true}
+						pagination={{
+							clickable: true,
+						}}
+						navigation={true}
+						className={styles.imgContainer}
+					>
+						<SwiperSlide>
+							<Image
+								width="100%"
+								height="60%"
+								layout="responsive"
+								objectFit="contain"
+								src="/knowledge/KnowledgeFirstView.png"
+								alt="HomePage New"
+							/>
+							<p className={styles.descriptionImg}>Startsida</p>
+						</SwiperSlide>
+						<SwiperSlide>
+							<Image
+								width="100%"
+								height="60%"
+								layout="responsive"
+								objectFit="contain"
+								src="/Car-rental/HertzNew-2.png"
+								alt="RentalPage New"
+							/>
+							<p className={styles.descriptionImg}>
+								Uppgifter gällande utrhyrningen
+							</p>
+						</SwiperSlide>
+						<SwiperSlide>
+							<Image
+								width="100%"
+								height="60%"
+								layout="responsive"
+								objectFit="contain"
+								src="/Car-rental/HertzNew-3.png"
+								alt="Choose Car Page New"
+							/>
+							<p className={styles.descriptionImg}>Val av Bil</p>
+						</SwiperSlide>
+						<SwiperSlide>
+							<Image
+								width="100%"
+								height="60%"
+								layout="responsive"
+								objectFit="contain"
+								src="/Car-rental/HertzNew-4.png"
+								alt="Payment Page New"
+							/>
+							<p className={styles.descriptionImg}>Betalningsinfromation</p>
+						</SwiperSlide>
+					</Swiper>
+				)}
 			</div>
 		</div>
 	);

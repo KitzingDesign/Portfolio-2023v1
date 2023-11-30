@@ -4,7 +4,6 @@ import Image from "next/image";
 import styles from "./hertzSection.module.css";
 import styled from "@emotion/styled";
 import { keyframes } from "@emotion/react";
-import { useState } from "react";
 
 // import produktImg from "public/static/Macbook-mockup-hertz.jpg";
 // const TextAnimation = keyframes`
