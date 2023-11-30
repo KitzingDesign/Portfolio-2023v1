@@ -1,4 +1,7 @@
 import HertzSection from "../components/homePage/hertzSection";
+import EmotionsSections from "../components/homePage/emotions";
+import KnowledgeSections from "../components/homePage/knowledgeSection";
+
 import HomeHeader from "../components/homePage/homeHeader";
 import KandidatarbeteSection from "../components/homePage/kandidatarbeteSection";
 import KrySection from "../components/homePage/digitaliseringSection";
@@ -28,7 +31,9 @@ const anchors = ["firstPage", "2", "thirdPage", "fourthPage", "fifthPage"];
 let fadeS1,
 	fadeS2,
 	fadeS3,
-	fadeS4 = false;
+	fadeS4,
+	fadeS5,
+	fadeS6 = false;
 
 const HomePage = () => (
 	<div>
@@ -78,17 +83,23 @@ const HomePage = () => (
 						<div className="section ">
 							<HomeHeader />
 						</div>
-						<div className={`section sectionOne `} id="1">
-							<HertzSection fade={fadeS1} />
+						<div className={`section `} id="1">
+							<KnowledgeSections fade={fadeS1} />
+						</div>
+						<div className={`section  `} id="1">
+							<EmotionsSections fade={fadeS2} />
+						</div>
+						<div className={`section sectionOne `}>
+							<HertzSection fade={fadeS3} />
 						</div>
 						<div className="section">
-							<KandidatarbeteSection fade={fadeS2} />
+							<KandidatarbeteSection fade={fadeS4} />
 						</div>
 						<div className="section">
-							<KrySection fade={fadeS3} />
+							<KrySection fade={fadeS5} />
 						</div>
 						<div className="section">
-							<ProsexSection fade={fadeS4} />
+							<ProsexSection fade={fadeS6} />
 						</div>
 					</div>
 				);

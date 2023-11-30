@@ -1,0 +1,12 @@
+/* colors
+Hertz-yellow: #FED000
+opacity: 0.09
+gray: #0B0A11 */
+
+.sticky {
+	writing-mode: tb-rl;
+	bottom: 1%;
+	left: 1%;
+	position: fixed;
+	text-transform: uppercase;
+}
