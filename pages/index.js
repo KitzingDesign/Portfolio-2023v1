@@ -6,17 +6,12 @@ import HomeHeader from "../components/homePage/homeHeader";
 import KandidatarbeteSection from "../components/homePage/kandidatarbeteSection";
 import KrySection from "../components/homePage/digitaliseringSection";
 import ProsexSection from "../components/homePage/prosexSection";
-import Footer from "../components/Layout/footer";
 import styles from "./index.module.css";
 import WithTransition from "../components/HOC/withTransition";
 
 import React, { Fragment, useEffect } from "react";
-import ReactDOM from "react-dom";
-import { motion } from "framer-motion";
 
-import Aos from "aos";
 import "aos/dist/aos.css";
-import { TimelineLite } from "gsap";
 
 //imports that makes slide-fullpage function
 // import { FullPage, Slide } from "react-full-page";
