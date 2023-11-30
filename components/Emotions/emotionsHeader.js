@@ -117,7 +117,7 @@ const EmotionHeader = () => {
 					height="100%"
 					layout="responsive"
 					objectFit="contain"
-					src="/Emotions/header.png"
+					src="/emotions/header.png"
 					alt="Mockup on computer screen"
 				/>
 				{/* <img src="/Macbook-mockup-hertz.jpg" /> */}
