@@ -36,7 +36,7 @@ const EmotionsContent = () => {
 							height="60%"
 							layout="responsive"
 							objectFit="contain"
-							src="/emotionsImg/firstview.png"
+							src="/emotionsImg/firstview.webp"
 							alt="First view of the app"
 						/>
 						<p className={styles.descriptionImg}></p>
@@ -61,7 +61,7 @@ const EmotionsContent = () => {
 							src="/emotionsImg/thirdview.png"
 							alt="Third view of the app"
 						/>
-						<p className={styles.descriptionImg}>Val av Bil</p>
+						<p className={styles.descriptionImg}></p>
 					</SwiperSlide>
 					<SwiperSlide>
 						<Image
@@ -69,10 +69,10 @@ const EmotionsContent = () => {
 							height="60%"
 							layout="responsive"
 							objectFit="contain"
-							src="/Car-rental/HertzNew-4.png"
+							src="/emotionsImg/fourthview.png"
 							alt="Payment Page New"
 						/>
-						<p className={styles.descriptionImg}>Betalningsinfromation</p>
+						<p className={styles.descriptionImg}></p>
 					</SwiperSlide>
 				</Swiper>
 			</div>

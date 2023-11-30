@@ -1,7 +1,5 @@
-import HertzSection from "../components/homePage/hertzSection";
 import EmotionsSections from "../components/homePage/emotions";
 import KnowledgeSections from "../components/homePage/knowledgeSection";
-
 import HomeHeader from "../components/homePage/homeHeader";
 import KandidatarbeteSection from "../components/homePage/kandidatarbeteSection";
 import KrySection from "../components/homePage/digitaliseringSection";
@@ -9,17 +7,11 @@ import ProsexSection from "../components/homePage/prosexSection";
 import styles from "./index.module.css";
 import WithTransition from "../components/HOC/withTransition";
 
-import React, { Fragment, useEffect } from "react";
+import React from "react";
 
 import "aos/dist/aos.css";
 
-//imports that makes slide-fullpage function
-// import { FullPage, Slide } from "react-full-page";
-
 import ReactFullpage from "@fullpage/react-fullpage";
-import Navigation from "../components/Layout/Navigation";
-import TextLoop from "../components/UI/textLoop";
-import Nav from "../components/Layout/Navigation";
 import Head from "next/head";
 
 const anchors = ["firstPage", "2", "thirdPage", "fourthPage", "fifthPage"];
@@ -84,9 +76,7 @@ const HomePage = () => (
 						<div className={`section  `} id="1">
 							<EmotionsSections fade={fadeS2} />
 						</div>
-						<div className={`section sectionOne `}>
-							<HertzSection fade={fadeS3} />
-						</div>
+
 						<div className="section">
 							<KandidatarbeteSection fade={fadeS4} />
 						</div>
