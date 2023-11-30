@@ -46,12 +46,12 @@ const EmotionBakgrund = () => {
 				<BackgroundTitle data-aos="fade-up">Bakgrund</BackgroundTitle>
 				<p data-aos="fade-up">
 					Jag har alltid varit rädd för att flyga, ända sedan jag var liten. En
-					mening jag har hört tusentals gånger är "Varför är du rädd, det är
-					mycket farligare att åka bil än att flyga?". I kursen Design for user
-					experience valde jag att designa en app för att kritisera just denna
-					meningen. Tanken med projektet var att skapa en provokativ app, för
-					att förtydliga vad det egenligen betyder när man använder fruktansvärd
-					statistik för att prove a point.
+					mening jag har hört tusentals gånger är &ldquo;"Varför är du rädd, det
+					är mycket farligare att åka bil än att flyga?"&rdquo;. I kursen Design
+					for user experience valde jag att designa en app för att kritisera
+					just denna meningen. Tanken med projektet var att skapa en provokativ
+					app, för att förtydliga vad det egenligen betyder när man använder
+					fruktansvärd statistik för att prove a point.
 					<br />
 					<br />
 					Obs! Ta appen med en nypa salt, att vara hämsk är hela dess mening.

@@ -72,9 +72,9 @@ const HertzSection = (props) => {
 					<h2>Calmyfly</h2>
 					<Text>
 						Jag har alltid varit flygrädd och något jag fått höra otaliga gånger
-						är "Varför är du flygrädd, det är mycket farligare att åka bil än
-						att flyga". Denna appen är skapad för att kritisera denna mening och
-						visa hur hemskt det egentligen är.
+						är &ldquo;"Varför är du flygrädd, det är mycket farligare att åka
+						bil än att flyga"&rdquo;. Denna appen är skapad för att kritisera
+						denna mening och visa hur hemskt det egentligen är.
 					</Text>
 					<ProjectLink link="/Emotions" />
 				</TextContainer>
