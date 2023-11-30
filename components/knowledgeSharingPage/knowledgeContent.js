@@ -1,11 +1,9 @@
 import styles from "./knowledgeContent.module.css";
 import Image from "next/image";
 
-import SwiperCore, { Pagination } from "swiper";
+import SwiperCore, { Pagination, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useState, useEffect } from "react";
-
-SwiperCore.use([Pagination]);
 
 // Import Swiper styles
 import "swiper/css";
@@ -34,6 +32,7 @@ const KnowledgeContent = () => {
 			<div className={styles.swiperContainer} data-aos="fade-up">
 				{domLoaded && (
 					<Swiper
+						modules={[Pagination, Navigation]}
 						id="swiper-color"
 						slidesPerView={1}
 						spaceBetween={30}
