@@ -85,6 +85,7 @@ const HomeHeader = () => {
 				<HeaderElement>
 					<HeaderText>
 						<h1>Jakob Kitzing</h1>
+						<h1>OBS! Uppdatering kommer snart!</h1>
 
 						<TextLoop />
 
