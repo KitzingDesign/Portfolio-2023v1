@@ -36,7 +36,7 @@ const EmotionsContent = () => {
 							height="60%"
 							layout="responsive"
 							objectFit="contain"
-							src="/emotions/firstview.png"
+							src="/emotionsImg/firstview.png"
 							alt="First view of the app"
 						/>
 						<p className={styles.descriptionImg}></p>
@@ -47,7 +47,7 @@ const EmotionsContent = () => {
 							height="60%"
 							layout="responsive"
 							objectFit="contain"
-							src="/emotions/secondview.png"
+							src="/emotionsImg/secondview.png"
 							alt="Second view of the app"
 						/>
 						<p className={styles.descriptionImg}></p>
@@ -58,7 +58,7 @@ const EmotionsContent = () => {
 							height="60%"
 							layout="responsive"
 							objectFit="contain"
-							src="/emotions/thirdview.png"
+							src="/emotionsImg/thirdview.png"
 							alt="Third view of the app"
 						/>
 						<p className={styles.descriptionImg}>Val av Bil</p>
