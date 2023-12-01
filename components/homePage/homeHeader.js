@@ -14,11 +14,12 @@ const Container = styled.div`
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		height: 100% !important;
+		height: 100% 
+		max-height: -webkit-fill-available !important;
 	}
 	@media (orientation: portrait) and (max-width: 34.5em) {
-		height: 100% !important;
-		max-height: -webkit-fill-available;
+		height: 100% ;
+		max-height: -webkit-fill-available !important;
 	}
 `;
 const HeaderElement = styled.div`
