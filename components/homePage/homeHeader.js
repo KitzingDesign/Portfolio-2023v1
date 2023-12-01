@@ -77,29 +77,27 @@ const HeaderImg = styled.div`
 
 const HomeHeader = () => {
 	return (
-		<div>
-			<Container>
-				<HeaderElement>
-					<HeaderText>
-						<h1>Jakob Alfred Kitzing</h1>
+		<Container>
+			<HeaderElement>
+				<HeaderText>
+					<h1>Jakob Alfred Kitzing</h1>
 
-						<TextLoop />
+					<TextLoop />
 
-						<p>
-							En UX Designer med rötter inom produkt utveckling. Min filosofi
-							och det jag genuint brinner för är att utveckla kreativa produkter
-							och tjänster där användaren alltid står i centrum.
-						</p>
-						<Link href="/about">
-							<Btn>Mer om mig</Btn>
-						</Link>
-					</HeaderText>
-					<HeaderImg>
-						<BlobBackground />
-					</HeaderImg>
-				</HeaderElement>
-			</Container>
-		</div>
+					<p>
+						En UX Designer med rötter inom produkt utveckling. Min filosofi och
+						det jag genuint brinner för är att utveckla kreativa produkter och
+						tjänster där användaren alltid står i centrum.
+					</p>
+					<Link href="/about">
+						<Btn>Mer om mig</Btn>
+					</Link>
+				</HeaderText>
+				<HeaderImg>
+					<BlobBackground />
+				</HeaderImg>
+			</HeaderElement>
+		</Container>
 	);
 };
 
