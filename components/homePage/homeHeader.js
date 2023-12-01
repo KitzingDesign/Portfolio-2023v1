@@ -14,10 +14,10 @@ const Container = styled.div`
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		height: 100vh !important;
+		height: 100% !important;
 	}
 	@media (orientation: portrait) and (max-width: 34.5em) {
-		height: 100vh !important;
+		height: 100% !important;
 		max-height: -webkit-fill-available;
 	}
 `;
