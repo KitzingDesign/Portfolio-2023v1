@@ -18,11 +18,11 @@ const HomeHeader = () => {
 		justify-content: space-between;
 		align-items: center;
 		@media (orientation: portrait) {
-			height: 100vh;
+			height: 100%;
 			max-height: -webkit-fill-available;
 		}
 		@media (orientation: portrait) and (max-width: 34.5em) {
-			height: 100vh;
+			height: 100%;
 			max-height: -webkit-fill-available;
 		}
 	`;
