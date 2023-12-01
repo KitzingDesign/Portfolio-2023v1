@@ -49,7 +49,7 @@ const KnowledgeContent = () => {
 								height="60%"
 								layout="responsive"
 								objectFit="contain"
-								src="/knowledge/KnowledgeFirstView.png"
+								src="/knowledge/KnowledgeFirstView.webp"
 								alt="HomePage New"
 							/>
 							<p className={styles.descriptionImg}>Startsida</p>
