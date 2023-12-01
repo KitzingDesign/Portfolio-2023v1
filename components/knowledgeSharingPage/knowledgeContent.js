@@ -52,7 +52,7 @@ const KnowledgeContent = () => {
 								src="/knowledge/KnowledgeFirstView.webp"
 								alt="HomePage New"
 							/>
-							<p className={styles.descriptionImg}>Startsida</p>
+							<p className={styles.descriptionImg}>Home Page</p>
 						</SwiperSlide>
 						<SwiperSlide>
 							<Image

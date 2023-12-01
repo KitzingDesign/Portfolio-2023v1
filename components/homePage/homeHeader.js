@@ -28,6 +28,7 @@ const HeaderElement = styled.div`
 	align-items: center;
 	justify-content: center;
 	@media (orientation: portrait) {
+		height: 100%;
 		flex-direction: column-reverse;
 	}
 `;
