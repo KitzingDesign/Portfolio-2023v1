@@ -24,12 +24,18 @@ const Vertical = styled.div`
 	padding-bottom: 50px;
 	writing-mode: tb-rl;
 	transform: rotate(180deg);
-	@media (max-width: 84em) {
-	}
 `;
 
 //Animations
-const AnimationVertical = keyframes`from {
+const AnimationYear = keyframes`from {
+		opacity: 0;
+		transform: translate(10vw, 0);
+	}
+	to {
+		opacity: 0.4;
+		transform: translate(0, 0);
+	}`;
+const AnimationSeason = keyframes`from {
 		opacity: 0;
 		transform: translate(10vw, 0);
 	}
@@ -54,7 +60,7 @@ const Year = styled.h1`
 	font-size: 20vw;
 
 	opacity: 0;
-	animation-name: ${AnimationVertical};
+	animation-name: ${AnimationYear};
 	animation-duration: 0.4s;
 	animation-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
 	animation-fill-mode: forwards;
@@ -70,10 +76,8 @@ const Season = styled.h2`
 	font-size: 7vw;
 	margin-bottom: 20px;
 
-	text-decoration: underline black 0.5rem;
-
 	opacity: 0;
-	animation-name: ${AnimationVertical};
+	animation-name: ${AnimationSeason};
 	animation-duration: 0.4s;
 	animation-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
 	animation-fill-mode: forwards;
@@ -114,16 +118,6 @@ const Img = styled.div`
 	width: 55vw;
 	z-index: -1;
 `;
-const Nr = styled.h2`
-	position: absolute;
-	right: 0%;
-	bottom: 50%;
-	transform: translateY(140%);
-	font-size: 24vw;
-	line-height: 0.6;
-	color: #0b0a11;
-	opacity: 0.09;
-`;
 
 const KnowledgeHeader = () => {
 	return (
@@ -141,10 +135,10 @@ const KnowledgeHeader = () => {
 					height="100%"
 					layout="responsive"
 					objectFit="contain"
-					src="/Car-rental/heartzHeader.jpg"
+					src="/knowledge/KnowledgeHeader.webp"
 					alt="Mockup on computer screen"
 				/>
-				{/* <img src="/Macbook-mockup-hertz.jpg" /> */}
+				{/* <img src="/.jpg" /> */}
 			</Img>
 		</Container>
 	);

@@ -3,7 +3,6 @@ import Image from "next/image";
 
 import styles from "./hertzSection.module.css";
 import styled from "@emotion/styled";
-import { keyframes } from "@emotion/react";
 
 // import produktImg from "public/static/Macbook-mockup-hertz.jpg";
 // const TextAnimation = keyframes`
@@ -74,9 +73,9 @@ const KnowledgeSection = (props) => {
 					</h2>
 					<Text>
 						Inom alla företag finns enormt mycket kunskap, kunskap som är
-						ovärdelig men som oftas glöms bort. Jag och min klass kompis Mats
-						skapade en platform för att denna kunskap enkelt ska kunna delas med
-						andra, för en mer effektiv arbetsplats.
+						ovärdelig men som oftas glöms bort. Jag och en klasskompis skapade
+						en platform för att denna kunskap enkelt ska kunna delas med andra,
+						för en mer effektiv arbetsplats.
 					</Text>
 					<ProjectLink link="/knowledgeSharing" />
 				</TextContainer>
@@ -93,8 +92,8 @@ const KnowledgeSection = (props) => {
 						height="100%"
 						layout="responsive"
 						objectFit="contain"
-						src="/Macbook-mockup-hertz.png"
-						alt="Mockup Car Rental webpage"
+						src="/KonwledgeSharingMockup.webp"
+						alt="Mockup Knowledge Shareing "
 					/>
 				</ImgContainer>
 			</div>

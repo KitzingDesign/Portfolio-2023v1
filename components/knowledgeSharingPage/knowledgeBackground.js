@@ -21,7 +21,14 @@ const Content = styled.div`
 `;
 const BackgroundTitle = styled.h2`
 	padding-top: 12.8rem;
+	@media (max-width: 84em) {
+		padding-top: 0rem;
+	}
+	@media (orientation: portrait) {
+		padding-bottom: 0px;
+	}
 `;
+
 const Divider = styled.div`
 	height: 1px;
 	background-color: black;
