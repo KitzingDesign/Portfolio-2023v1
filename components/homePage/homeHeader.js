@@ -18,7 +18,10 @@ const HomeHeader = () => {
 		justify-content: space-between;
 		align-items: center;
 		@media (orientation: portrait) {
-			height: 100%;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
 			max-height: -webkit-fill-available;
 		}
 		@media (orientation: portrait) and (max-width: 34.5em) {
