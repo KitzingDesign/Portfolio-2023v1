@@ -1,13 +1,8 @@
-import { Fragment } from "react";
 import Link from "next/dist/client/link";
 
-import styles from "./homeHeader.module.css";
-import Navigation from "../Layout/Navigation";
 import TextLoop from "../UI/textLoop";
 import BlobBackground from "../UI/blobBackground";
 import styled from "@emotion/styled";
-
-const text = "UX/UI.";
 
 const Container = styled.div`
 	height: 100vh;
@@ -19,10 +14,10 @@ const Container = styled.div`
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		height: 100vh;
+		height: 100vh !important;
 	}
 	@media (orientation: portrait) and (max-width: 34.5em) {
-		height: 100vh;
+		height: 100vh !important;
 		max-height: -webkit-fill-available;
 	}
 `;
