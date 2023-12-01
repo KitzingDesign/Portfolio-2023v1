@@ -14,7 +14,6 @@ const Container = styled.div`
 	width: 80vw;
 	margin: 0 auto;
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
 	@media (orientation: portrait) {
 		flex-direction: column;

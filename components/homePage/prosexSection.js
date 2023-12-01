@@ -90,7 +90,7 @@ const ProsexSection = (props) => {
 								height="100%"
 								layout="responsive"
 								objectFit="contain"
-								src="/tre-flaskor.png"
+								src="/tre-flaskor.webp"
 								alt="prosex. BeerBottle"
 							/>
 						</Img>
