@@ -20,6 +20,7 @@ const Headings = styled.div`
 	display: block;
 	@media (max-width: 84em) {
 		padding-bottom: 20px;
+		display: inherit;
 	}
 `;
 const Vertical = styled.div`
@@ -61,45 +62,11 @@ const Year = styled.h1`
 		bottom: 10px;
 	}
 `;
-const Season = styled.h2`
-	text-transform: uppercase;
-	text-align: right;
-	color: #bcbcbc;
-	font-weight: 400;
-	line-height: 30%;
-	font-size: 6vw;
-
-	opacity: 0;
-	animation-name: ${AnimationVertical};
-	animation-duration: 0.4s;
-	animation-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
-	animation-fill-mode: forwards;
-	animation-delay: 0.7s;
-	@media (max-width: 84em) {
-		bottom: 70px;
-	}
-	@media (max-width: 75em) {
-		bottom: 40px;
-	}
-	@media (max-width: 50em) {
-		bottom: 20px;
-	}
-`;
 
 const Img = styled.div`
 	width: 70%;
 
 	align-self: center;
-`;
-const Nr = styled.h2`
-	position: absolute;
-	right: 0%;
-	bottom: 50%;
-	transform: translateY(140%);
-	font-size: 24vw;
-	line-height: 0.6;
-	color: #0b0a11;
-	opacity: 0.09;
 `;
 
 const EmotionHeader = () => {
@@ -108,7 +75,6 @@ const EmotionHeader = () => {
 			<Headings>
 				<Vertical>
 					<Year>2023</Year>
-					{/* <Season>Spring</Season> */}
 				</Vertical>
 			</Headings>
 			<Img>
