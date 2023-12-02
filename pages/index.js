@@ -14,7 +14,14 @@ import "aos/dist/aos.css";
 import ReactFullpage from "@fullpage/react-fullpage";
 import Head from "next/head";
 
-const anchors = ["firstPage", "2", "thirdPage", "fourthPage", "fifthPage"];
+const anchors = [
+	"firstPage",
+	"secondPage",
+	"thirdPage",
+	"fourthPage",
+	"fifthPage",
+	"sixthPage",
+];
 let fadeS1,
 	fadeS2,
 	fadeS3,
@@ -76,7 +83,6 @@ const HomePage = () => (
 						<div className={`section  `} id="1">
 							<EmotionsSections fade={fadeS2} />
 						</div>
-
 						<div className="section">
 							<KandidatarbeteSection fade={fadeS4} />
 						</div>

@@ -50,9 +50,22 @@ const KnowledgeContent = () => {
 								layout="responsive"
 								objectFit="contain"
 								src="/knowledge/KnowledgeFirstView.webp"
-								alt="HomePage New"
+								alt="Help Others View"
 							/>
-							<p className={styles.descriptionImg}>Home Page</p>
+
+							<p className={styles.descriptionImg}>Help Others page</p>
+						</SwiperSlide>
+
+						<SwiperSlide>
+							<Image
+								width="100%"
+								height="60%"
+								layout="responsive"
+								objectFit="contain"
+								src="/knowledge/FirstFindHelp.webp"
+								alt="First find help page"
+							/>
+							<p className={styles.descriptionImg}>First find help page</p>
 						</SwiperSlide>
 						<SwiperSlide>
 							<Image
@@ -60,12 +73,10 @@ const KnowledgeContent = () => {
 								height="60%"
 								layout="responsive"
 								objectFit="contain"
-								src="/Car-rental/HertzNew-2.png"
-								alt="RentalPage New"
+								src="/knowledge/SecondFindHelp.webp"
+								alt="View of second find help page"
 							/>
-							<p className={styles.descriptionImg}>
-								Uppgifter gällande utrhyrningen
-							</p>
+							<p className={styles.descriptionImg}>Second find help page</p>
 						</SwiperSlide>
 						<SwiperSlide>
 							<Image
@@ -73,10 +84,10 @@ const KnowledgeContent = () => {
 								height="60%"
 								layout="responsive"
 								objectFit="contain"
-								src="/Car-rental/HertzNew-3.png"
-								alt="Choose Car Page New"
+								src="/knowledge/FirstFindPeople.webp"
+								alt="View of first find people page"
 							/>
-							<p className={styles.descriptionImg}>Val av Bil</p>
+							<p className={styles.descriptionImg}>First find people page</p>
 						</SwiperSlide>
 						<SwiperSlide>
 							<Image
@@ -84,10 +95,32 @@ const KnowledgeContent = () => {
 								height="60%"
 								layout="responsive"
 								objectFit="contain"
-								src="/Car-rental/HertzNew-4.png"
-								alt="Payment Page New"
+								src="/knowledge/SecondFindPeople.webp"
+								alt="View of second find people page"
 							/>
-							<p className={styles.descriptionImg}>Betalningsinfromation</p>
+							<p className={styles.descriptionImg}>Second find people page</p>
+						</SwiperSlide>
+						<SwiperSlide>
+							<Image
+								width="100%"
+								height="60%"
+								layout="responsive"
+								objectFit="contain"
+								src="/knowledge/Archives.webp"
+								alt="View of archives page"
+							/>
+							<p className={styles.descriptionImg}>Archives page</p>
+						</SwiperSlide>
+						<SwiperSlide>
+							<Image
+								width="100%"
+								height="60%"
+								layout="responsive"
+								objectFit="contain"
+								src="/knowledge/ProfilePage.webp"
+								alt="View of profile page"
+							/>
+							<p className={styles.descriptionImg}>Profile Page</p>
 						</SwiperSlide>
 					</Swiper>
 				)}
