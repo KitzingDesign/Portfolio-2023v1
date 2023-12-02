@@ -4,10 +4,10 @@ import { useState, useEffect } from "react";
 
 import { Pagination, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 const EmotionsContent = () => {
@@ -23,6 +23,16 @@ const EmotionsContent = () => {
 				<p data-aos="fade-up"></p>
 			</div>
 			<div className={styles.swiperContainer} data-aos="fade-up">
+				<div
+					className={`${styles.swiperbutton} ${styles.imageswiperbuttonnext}`}
+				>
+					<IoIosArrowForward />
+				</div>
+				<div
+					className={`${styles.swiperbutton} ${styles.imageswiperbuttonprev}`}
+				>
+					<IoIosArrowBack />
+				</div>
 				{domLoaded && (
 					<Swiper
 						modules={[Pagination, Navigation]}
@@ -33,7 +43,10 @@ const EmotionsContent = () => {
 						pagination={{
 							clickable: true,
 						}}
-						navigation={true}
+						navigation={{
+							nextEl: styles.imageswiperbuttonnext,
+							prevEl: styles.imageswiperbuttonprev,
+						}}
 						className={styles.imgContainer}
 					>
 						<SwiperSlide>

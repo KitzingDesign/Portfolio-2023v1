@@ -19,23 +19,9 @@ const Content = styled.div`
 `;
 const BackgroundTitle = styled.h2`
 	padding-top: 12.8rem;
-`;
-const Divider = styled.div`
-	height: 1px;
-	background-color: black;
-`;
-const CopyRightText = styled.p`
-	text-align: right;
-`;
-const ProcessTitle = styled.h2`
-	text-align: center;
-	padding-top: 4.8rem;
-
-	padding-bottom: 6.4rem;
-`;
-const ProfileImg = styled.div`
-	width: 100%;
-	padding-bottom: 12.8rem;
+	@media (max-width: 84em) {
+		padding-top: 0rem;
+	}
 `;
 
 const EmotionBakgrund = () => {
