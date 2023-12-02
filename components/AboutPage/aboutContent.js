@@ -164,6 +164,13 @@ const AboutContent = () => {
 			</Container>
 			<div className={styles.educationContainer} data-aos="fade-right">
 				<Container>
+					<h2>Work Experince</h2>
+					<h3>
+						Product Developer<i> - UX Designer (Summer internship 2023)</i>
+					</h3>
+					<p>
+						<i>Kognic</i>
+					</p>
 					<h2>Education</h2>
 					<h3>
 						MSc. Computer Sience <i>(Exchange studies fall 2023)</i>
