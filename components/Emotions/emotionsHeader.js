@@ -20,6 +20,7 @@ const Headings = styled.div`
 	display: block;
 	@media (max-width: 84em) {
 		padding-bottom: 20px;
+		position: inherit;
 		display: inherit;
 	}
 `;
