@@ -32,7 +32,7 @@ const KandidatarbeteSlutkocept = () => {
 							height="56%"
 							layout="responsive"
 							objectFit="contain"
-							src="/Kandidat/Hero-bild.png"
+							src="/Kandidat/Hero-bild.webp"
 							alt="The Arc"
 						/>
 					</div>
@@ -105,7 +105,7 @@ const KandidatarbeteSlutkocept = () => {
 								height="60%"
 								layout="responsive"
 								objectFit="contain"
-								src={"/Kandidat/solutions/styr-view.jpg"}
+								src={"/Kandidat/solutions/styr-view.webp"}
 								alt="controls"
 							/>
 						</div>
@@ -117,7 +117,7 @@ const KandidatarbeteSlutkocept = () => {
 								height="60%"
 								layout="responsive"
 								objectFit="contain"
-								src={"/Kandidat/solutions/styrbord-view.jpg"}
+								src={"/Kandidat/solutions/styrbord-view.webp"}
 								alt="Controls placing"
 							/>
 						</div>

@@ -24,6 +24,7 @@ const Container = styled.div`
 	}
 `;
 const TextContainer = styled.div`
+	margin-left: 2.4rem;
 	width: 100%;
 	& > p {
 		margin-top: 2.4rem;
@@ -31,6 +32,7 @@ const TextContainer = styled.div`
 	}
 	@media (orientation: portrait) {
 		width: 100%;
+		margin-left: 0rem;
 	}
 `;
 const ImgContainer = styled.div`
