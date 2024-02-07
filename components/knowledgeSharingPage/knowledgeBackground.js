@@ -43,8 +43,15 @@ const KnowledgeBakgrund = () => {
 			<Content>
 				<BackgroundTitle data-aos="fade-up">Bakgrund</BackgroundTitle>
 				<p data-aos="fade-up">
-					Tillsammans med en kursare skapade vi en plattform där företag kan
-					dela sina kunskaper.
+					Tillsammans med en kursare skapade vi en koncept till en plattform där
+					företag kan dela sina kunskaper, hitta kunniga personer inom specifika
+					ämnen och fråga frågor till hela företaget. För att skapa konceptet
+					utfördes en grundlig user research vilket inkluderade en market
+					research av befintliga lösningar, litterature research, samt
+					intervjuer med människor inom arbetslivet. En prototyp skapades, som
+					sedan utvärderades med potentiella användare, och därefter
+					redesignades ytterligare i beaktning till resultatet av användar
+					testerna.
 				</p>
 				<Divider data-aos="fade-up"></Divider>
 				<CopyRightText data-aos="fade-up">

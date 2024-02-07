@@ -85,7 +85,7 @@ const HomeHeader = () => {
 					<TextLoop />
 
 					<p>
-						En UX Designer med rötter inom produkt utveckling. Min filosofi och
+						En UX Designer med rötter inom produktutveckling. Min filosofi och
 						det jag genuint brinner för är att utveckla kreativa produkter och
 						tjänster där användaren alltid står i centrum.
 					</p>
