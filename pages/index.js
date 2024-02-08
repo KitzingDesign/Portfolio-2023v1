@@ -22,12 +22,6 @@ const anchors = [
 	"fifthPage",
 	"sixthPage",
 ];
-let fadeS1,
-	fadeS2,
-	fadeS3,
-	fadeS4,
-	fadeS5,
-	fadeS6 = false;
 
 const HomePage = () => (
 	<div>
@@ -40,57 +34,28 @@ const HomePage = () => (
 			anchors={anchors}
 			navigation={true}
 			animateAnchor={false}
-			onLeave={function (origin, destination) {
-				if (destination.index === 1) {
-					// const r = document.querySelector(":root");
-					// r.style.setProperty("--color", "#fed000");
-
-					fadeS1 = true;
-				} else if (destination.index === 2) {
-					// const r = document.querySelector(":root");
-					// r.style.setProperty("--color", "#c0d1c5");
-
-					fadeS2 = true;
-				} else if (destination.index === 3) {
-					// const r = document.querySelector(":root");
-					// r.style.setProperty("--color", "#e38547");
-					fadeS3 = true;
-				} else if (destination.index === 4) {
-					fadeS4 = true;
-				}
-			}}
 			render={({ state, fullpageApi }) => {
 				console.log("render prop change", state, fullpageApi);
-				// if (destination.index === 1) {
-				// 	color = "yellow";
-				// } else if (destination.index === 2) {
-				// 	fadeS2 = true;
-				// } else if (destination.index === 3) {
-				// 	fadeS3 = true;
-				// } else if (destination.index === 4) {
-				// 	fadeS4 = true;
-				// }
-				// eslint-disable-line no-console
 
 				return (
 					<div className={styles.wrapper}>
 						<div className="section ">
 							<HomeHeader />
 						</div>
-						<div className={`section `} id="1">
-							<KnowledgeSections fade={fadeS1} />
-						</div>
-						<div className={`section  `} id="1">
-							<EmotionsSections fade={fadeS2} />
+						<div className="section">
+							<KnowledgeSections />
 						</div>
 						<div className="section">
-							<KandidatarbeteSection fade={fadeS4} />
+							<EmotionsSections />
 						</div>
 						<div className="section">
-							<KrySection fade={fadeS5} />
+							<KandidatarbeteSection />
 						</div>
 						<div className="section">
-							<ProsexSection fade={fadeS6} />
+							<KrySection />
+						</div>
+						<div className="section">
+							<ProsexSection />
 						</div>
 					</div>
 				);
