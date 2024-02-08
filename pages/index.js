@@ -31,30 +31,38 @@ const HomePage = () => (
 		</Head>
 		<ReactFullpage
 			licenseKey="21BAFFA2-6D8141A7-AAF0A8AC-A0B24480"
-			anchors={anchors}
+			anchors={[
+				"firstPage",
+				"secondPage",
+				"thirdPage",
+				"fourthPage",
+				"fifthPage",
+				"sixthPage",
+			]}
 			navigation={true}
 			animateAnchor={false}
+			scrollingSpeed={700}
 			render={({ state, fullpageApi }) => {
 				console.log("render prop change", state, fullpageApi);
 
 				return (
 					<div className={styles.wrapper}>
-						<div className="section ">
+						<div className="section" id="1">
 							<HomeHeader />
 						</div>
-						<div className="section">
+						<div className="section" id="2">
 							<KnowledgeSections />
 						</div>
-						<div className="section">
+						<div className="section" id="3">
 							<EmotionsSections />
 						</div>
-						<div className="section">
+						<div className="section" id="4">
 							<KandidatarbeteSection />
 						</div>
-						<div className="section">
+						<div className="section" id="5">
 							<KrySection />
 						</div>
-						<div className="section">
+						<div className="section" id="6">
 							<ProsexSection />
 						</div>
 					</div>

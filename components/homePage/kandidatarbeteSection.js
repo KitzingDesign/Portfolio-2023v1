@@ -24,7 +24,7 @@ const Container = styled.div`
 	}
 `;
 const TextContainer = styled.div`
-	margin-left: 2.4rem;
+	margin-left: 0rem;
 	width: 100%;
 	& > p {
 		margin-top: 2.4rem;
