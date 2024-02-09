@@ -80,7 +80,7 @@ const HomeHeader = () => {
 		<Container>
 			<HeaderElement>
 				<HeaderText>
-					<h1>Jakob Kitzing</h1>
+					<h1>Jakob alfred Kitzing</h1>
 
 					<TextLoop />
 
