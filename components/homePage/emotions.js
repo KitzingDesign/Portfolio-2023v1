@@ -72,7 +72,7 @@ const HertzSection = (props) => {
 					<h2>Calmyfly</h2>
 					<Text>
 						I have always been afraid of flying, and something I&apos;ve heard
-						countless times is &quot;Why are you afraid of flying? It&apos;s
+						countless times is &apos;Why are you afraid of flying? It&apos;s
 						much more dangerous to travel by car than by plane.&apos; This app
 						was created to challenge this statement and illustrate what that
 						sentence actually means.

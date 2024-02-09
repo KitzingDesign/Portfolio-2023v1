@@ -31,11 +31,11 @@ const EmotionBakgrund = () => {
 				<BackgroundTitle data-aos="fade-up">Background</BackgroundTitle>
 				<p data-aos="fade-up">
 					I have always been afraid of flying, ever since I was a child. One
-					sentence I've heard thousands of times is, "Why are you afraid? It's
-					much more dangerous to travel by car than by plane." In the Design for
-					User Experience course, I chose to design an app to critique precisely
-					this statement. The idea behind the project was to create a
-					provocative app to clarify what it really means when one uses
+					sentence I've heard thousands of times is, &apos;Why are you afraid?
+					It's much more dangerous to travel by car than by plane.&apos; In the
+					Design for User Experience course, I chose to design an app to
+					critique precisely this statement. The idea behind the project was to
+					create a provocative app to clarify what it really means when one uses
 					horrifying statistics to prove a point.
 					<br />
 					<br />
