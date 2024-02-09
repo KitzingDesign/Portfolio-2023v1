@@ -26,8 +26,9 @@ const KnowledgeContent = () => {
 					benchmarking, literature reviews, and interviews with professionals in
 					the industry as a foundation. Subsequently, the initial prototype was
 					developed and evaluated with users. Finally, the design or the
-					platform was created, which can be viewed below. If you're curious
-					about the process or just how it works, feel free to reach out!
+					platform was created, which can be viewed below. If you&apos;re
+					curious about the process or just how it works, feel free to reach
+					out!
 				</p>
 			</div>
 			<div className={styles.swiperContainer} data-aos="fade-up">
