@@ -82,10 +82,11 @@ const KandidatarbeteSection = (props) => {
 				<TextContainer>
 					<h2>Bachlor's Thesis</h2>
 					<p>
-						As a bachelor thesis project, my group’s mission was, together with
-						the design company Boid, to develop the control room of the future
-						for the alloy plant Vagrön Alloys. Our role in the project was to
-						create a new workspace for the person overseeing the furnaces.
+						As a bachelor thesis project, my group&apos;s mission was, together
+						with the design company Boid, to develop the control room of the
+						future for the alloy plant Vagrön Alloys. Our role in the project
+						was to create a new workspace for the person overseeing the
+						furnaces.
 					</p>
 				</TextContainer>
 				<ProjectLink

@@ -68,7 +68,7 @@ const ProsexSection = (props) => {
 						<h2>prosex.</h2>
 						<Text>
 							During 2019-2020, I served as the PR Manager for the Technical
-							Design's PR and Event committee. Working in such a close-knit
+							Design&apos;s PR and Event committee. Working in such a close-knit
 							group was incredibly rewarding, and I also gained valuable skills
 							in Adobe Suite and graphic design.
 						</Text>

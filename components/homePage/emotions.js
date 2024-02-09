@@ -71,11 +71,11 @@ const HertzSection = (props) => {
 				<TextContainer>
 					<h2>Calmyfly</h2>
 					<Text>
-						I have always been afraid of flying, and something I've heard
-						countless times is 'Why are you afraid of flying? It's much more
-						dangerous to travel by car than by plane.' This app was created to
-						challenge this statement and illustrate what that sentence actually
-						means.
+						I have always been afraid of flying, and something I&apos;ve heard
+						countless times is &quot;Why are you afraid of flying? It&apos;s
+						much more dangerous to travel by car than by plane.&apos; This app
+						was created to challenge this statement and illustrate what that
+						sentence actually means.
 					</Text>
 					<ProjectLink link="/Emotions" />
 				</TextContainer>

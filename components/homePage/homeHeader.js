@@ -85,9 +85,9 @@ const HomeHeader = () => {
 					<TextLoop />
 
 					<p>
-						I’m a UX Designer with roots in product development. My philosophy,
-						and what I am truly passionate about, is developing creative
-						products and services where the user is at the center.
+						I&apos;m a UX Designer with roots in product development. My
+						philosophy, and what I am truly passionate about, is developing
+						creative products and services where the user is at the center.
 					</p>
 					<Link href="/about">
 						<Btn>More about me</Btn>

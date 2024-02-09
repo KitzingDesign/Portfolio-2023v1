@@ -115,7 +115,7 @@ const AboutContent = () => {
 						ref={ref}
 					>
 						<Text>
-							My name is Jakob, and I'm a UX/UI designer, human researcher,
+							My name is Jakob, and I&apos;m a UX/UI designer, human researcher,
 							product developer, and music lover; everything from electronic
 							music to jazz resonates through my headphones. As a person, I'm
 							outgoing and caring about my surroundings, believing that
