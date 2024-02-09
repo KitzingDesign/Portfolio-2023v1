@@ -22,11 +22,12 @@ const KnowledgeContent = () => {
 			<div>
 				<h2 data-aos="fade-up">Knowledge Sharing Platform</h2>
 				<p data-aos="fade-up">
-					Platformen skapades genom en gedigen förstudie med både bench marking,
-					litteraturstudier och intervjuer med personer inom näringslivet som
-					grund. Därefter skapades den första prototypen som evaluerades med
-					användare. Tillslut skapades sidan som kan ses nedan, ifall ni är
-					nyfikna på hur den fungerar är det bara att höra av sig!
+					The platform was created through a thorough pre-study, including
+					benchmarking, literature reviews, and interviews with professionals in
+					the industry as a foundation. Subsequently, the initial prototype was
+					developed and evaluated with users. Finally, the design or the
+					platform was created, which can be viewed below. If you're curious
+					about the process or just how it works, feel free to reach out!
 				</p>
 			</div>
 			<div className={styles.swiperContainer} data-aos="fade-up">

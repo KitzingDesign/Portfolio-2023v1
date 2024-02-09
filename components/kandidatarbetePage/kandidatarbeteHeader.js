@@ -131,7 +131,7 @@ const KandidatarbeteHeader = () => {
 					<Season>Spring</Season>
 				</Vertical>
 				<Above>
-					Redesign <br /> Arbetsplats
+					Redesign <br /> Workplace
 				</Above>
 			</Headings>
 			<Img>

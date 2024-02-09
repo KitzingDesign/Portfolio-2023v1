@@ -67,10 +67,10 @@ const ProsexSection = (props) => {
 					<ContentText>
 						<h2>prosex.</h2>
 						<Text>
-							2019-2020 satt jag som pr-ansvarig i teknisk designs pr och
-							sexmästeri. Det var både väldigt lärorikt att jobba i en så tight
-							grupp, samt att jag lärde mig väldigt mycket kring adobe suite och
-							grafisk design.
+							During 2019-2020, I served as the PR Manager for the Technical
+							Design's PR and Event committee. Working in such a close-knit
+							group was incredibly rewarding, and I also gained valuable skills
+							in Adobe Suite and graphic design.
 						</Text>
 						<ProjectLink link="/prosex-page" />
 					</ContentText>

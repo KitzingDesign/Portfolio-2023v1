@@ -73,10 +73,10 @@ const KnowledgeSection = (props) => {
 						Platform
 					</h2>
 					<Text>
-						Inom alla företag finns enormt mycket kunskap, kunskap som är
-						ovärdelig men som oftas glöms bort. Jag och en klasskompis skapade
-						en platform för att denna kunskap enkelt ska kunna delas med andra,
-						för en mer effektiv arbetsplats.
+						Within every company, there is a wealth of knowledge, knowledge that
+						is invaluable but often forgotten. My classmate and I created a
+						platform to easily share this knowledge with others, for a more
+						efficient workplace.
 					</Text>
 					<ProjectLink link="/knowledgeSharing" />
 				</TextContainer>

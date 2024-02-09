@@ -41,7 +41,7 @@ const HomePage = () => (
 			]}
 			navigation={true}
 			animateAnchor={false}
-			scrollingSpeed={700}
+			scrollingSpeed={800}
 			render={({ state, fullpageApi }) => {
 				console.log("render prop change", state, fullpageApi);
 

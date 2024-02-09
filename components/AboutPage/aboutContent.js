@@ -57,6 +57,7 @@ const FlexBoxText = styled.div`
 `;
 const Text = styled.p`
 	padding-right: 2rem;
+	margin-top: 6rem;
 	border-right: gray solid 0.2rem;
 	font-size: 2.4rem;
 	opacity: 1;
@@ -114,19 +115,20 @@ const AboutContent = () => {
 						ref={ref}
 					>
 						<Text>
-							Mitt namn är Jakob, en UX/UI-designer, Human reasercher,
-							produktutvecklare och en musikälskare, allt från indie-musik till
-							jazz dånar i lurarna. Som person är jag utåtriktad och mån om min
-							omgivning, allt blir roligare ifall folk runt en trivs och min
-							filosofi är att om man har roligt så syns det även på resultatet.{" "}
+							My name is Jakob, and I'm a UX/UI designer, human researcher,
+							product developer, and music lover; everything from electronic
+							music to jazz resonates through my headphones. As a person, I'm
+							outgoing and caring about my surroundings, believing that
+							everything is more enjoyable when those around me are happy. My
+							philosophy is that having fun reflects positively on the results.{" "}
 							<br /> <br />
-							Som designer är jag en nyfiken prick, jag vill alltid lära mig nya
-							saker och utmana mig själv och jag älskar att jobba i olika
-							sammanställningar för att få nya perspektiv.
-							<br /> <br /> För tillfället pluggar jag min master inom
-							interaktionsdesign på Chalmers(MSc. Interaction Design and
-							Technologies) där jag lär mig allt som har med UX och
-							användarevänlighet att göra.
+							As a designer, I'm endlessly curious; I always strive to learn new
+							things and challenge myself. I thrive on working in diverse teams
+							to gain fresh perspectives and learn.
+							<br /> <br /> Currently, I'm pursuing my master's degree in
+							Interaction Design at Chalmers (MSc. Interaction Design and
+							Technologies), where I'm further exploring all aspects of UX and
+							user-friendliness.
 						</Text>
 					</div>
 					<div className={styles.flexSkills}>
@@ -195,10 +197,8 @@ const AboutContent = () => {
 			</div>
 			<Container data-aos="new-animation">
 				<div className={styles.emailContainer}>
-					<h2>JakobKitzing@gmail.com</h2>
-					<p>
-						Tveka inte på att höra av dig, jag är alltid öppen för att tjöta!
-					</p>
+					<h2>Jakob.Kitzing@gmail.com</h2>
+					<p>Don't hesitate to get in touch, I'm always open for a chat!</p>
 				</div>
 			</Container>
 		</Fragment>

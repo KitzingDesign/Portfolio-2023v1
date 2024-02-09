@@ -80,12 +80,12 @@ const KandidatarbeteSection = (props) => {
 				id="Text"
 			>
 				<TextContainer>
-					<h2>Kandidatarbete</h2>
+					<h2>Bachlor's Thesis</h2>
 					<p>
-						Som kandidatarbete fick min grupp som uppdrag tillsammans med
-						designföretaget Boid att utveckla framtidens kontrollrum åt
-						legeringsverket Vagrön Alloys. Vår del i arbetet var att framställa
-						den nya arbetsplatsen till personen som styr ugnarna.
+						As a bachelor thesis project, my group’s mission was, together with
+						the design company Boid, to develop the control room of the future
+						for the alloy plant Vagrön Alloys. Our role in the project was to
+						create a new workspace for the person overseeing the furnaces.
 					</p>
 				</TextContainer>
 				<ProjectLink

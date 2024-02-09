@@ -80,17 +80,17 @@ const HomeHeader = () => {
 		<Container>
 			<HeaderElement>
 				<HeaderText>
-					<h1>Jakob Alfred Kitzing</h1>
+					<h1>Jakob Kitzing</h1>
 
 					<TextLoop />
 
 					<p>
-						En UX Designer med rötter inom produktutveckling. Min filosofi och
-						det jag genuint brinner för är att utveckla kreativa produkter och
-						tjänster där användaren alltid står i centrum.
+						I’m a UX Designer with roots in product development. My philosophy,
+						and what I am truly passionate about, is developing creative
+						products and services where the user is at the center.
 					</p>
 					<Link href="/about">
-						<Btn>Mer om mig</Btn>
+						<Btn>More about me</Btn>
 					</Link>
 				</HeaderText>
 				<HeaderImg>
