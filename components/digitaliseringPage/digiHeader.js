@@ -1,5 +1,7 @@
 import { Fragment } from "react";
 import styles from "./digiHeader.module.css";
+import { useState, useEffect } from "react";
+
 import {
 	HeartIcon,
 	ChatIcon,
@@ -259,6 +261,11 @@ const OrangeBackground = styled.div`
 const Carousell = styled(Swiper)``;
 
 const DigiHeader = () => {
+	const [domLoaded, setDomLoaded] = useState(false);
+
+	useEffect(() => {
+		setDomLoaded(true);
+	}, []);
 	return (
 		<UpperContainer>
 			<KryImg>
@@ -266,119 +273,121 @@ const DigiHeader = () => {
 					<Phone>
 						<Image width={950} height={1700} src="/Phone.png" alt="Iphone" />
 					</Phone>
-					<Swipes>
-						<Carousell
-							id="swiper-color"
-							slidesPerView={1}
-							spaceBetween={0}
-							loop={true}
-							style={{ width: "100%", height: "100%" }}
-						>
-							<SwiperSlide>
-								<Swipe>
-									<FirstSlide>
-										<WhiteSide>
-											<OrangeCicle />
-											<LeftArrow>
-												<SwipeArrow />
-											</LeftArrow>
-										</WhiteSide>
-										<OrangeSide>
-											<WhiteCicle />
-											<RightArrow>
-												<SwipeArrow />
-											</RightArrow>
-										</OrangeSide>
-									</FirstSlide>
-								</Swipe>
-							</SwiperSlide>
-							<SwiperSlide>
-								<Swipe>
-									<SecondSlide>
-										<ProfileInfo>
-											<ProfileImg>
-												<Image
-													width={1000}
-													height={1000}
-													src="/Startbild.svg"
-													alt="Jakob Kitzing"
-												/>
-											</ProfileImg>
-											<p>
-												<b>JakobKitzingDesign</b> <br /> sponsored
-											</p>
-										</ProfileInfo>
-										<SwiperImg>
-											<Carousell
-												id="swiper-color"
-												slidesPerView={1}
-												spaceBetween={0}
-												pagination={{
-													clickable: false,
-												}}
-												loop={true}
-												style={{ width: "100%", height: "100%" }}
-											>
-												<SwiperSlide>
-													<ImgContainer>
-														<Image
-															width={1000}
-															height={600}
-															src="/kry-stor/eldler-stor.jpg"
-															alt="Time Line"
-														/>
-													</ImgContainer>
-												</SwiperSlide>
-												<SwiperSlide>
-													<ImgContainer>
-														<Image
-															layout="responsive"
-															width={1000}
-															height={700}
-															src="/kry-stor/ely-stor.jpg"
-															alt="Ely comercial"
-														/>
-													</ImgContainer>
-												</SwiperSlide>
-												<SwiperSlide>
-													<ImgContainer>
-														<Image
-															width={1000}
-															height={560}
-															src="/kry-stor/jury-stor.jpg"
-															alt="Time Line"
-														/>
-													</ImgContainer>
-												</SwiperSlide>
-												<SwiperSlide>
-													<ImgContainer>
-														<Image
-															width={1000}
-															height={600}
-															src="/kry-stor/gyno-stor.jpg"
-															alt="Time Line"
-														/>
-													</ImgContainer>
-												</SwiperSlide>
-											</Carousell>
-										</SwiperImg>
-										<Iconer>
-											<div>
-												<HeartImg />
-												<ChatImg />
-												<PlaneImg />
-											</div>
-											<BookMarkImg />
-										</Iconer>
-										<TextLikes>
-											<b>4m likes</b> <br /> Häng med in i framtiden, alla appar
-											går att finna på JakobKitzingDesign.com
-										</TextLikes>
-									</SecondSlide>
-								</Swipe>
-							</SwiperSlide>
-						</Carousell>
-					</Swipes>
+					{domLoaded && (
+						<Swipes>
+							<Carousell
+								id="swiper-color"
+								slidesPerView={1}
+								spaceBetween={0}
+								loop={true}
+								style={{ width: "100%", height: "100%" }}
+							>
+								<SwiperSlide>
+									<Swipe>
+										<FirstSlide>
+											<WhiteSide>
+												<OrangeCicle />
+												<LeftArrow>
+													<SwipeArrow />
+												</LeftArrow>
+											</WhiteSide>
+											<OrangeSide>
+												<WhiteCicle />
+												<RightArrow>
+													<SwipeArrow />
+												</RightArrow>
+											</OrangeSide>
+										</FirstSlide>
+									</Swipe>
+								</SwiperSlide>
+								<SwiperSlide>
+									<Swipe>
+										<SecondSlide>
+											<ProfileInfo>
+												<ProfileImg>
+													<Image
+														width={1000}
+														height={1000}
+														src="/Startbild.svg"
+														alt="Jakob Kitzing"
+													/>
+												</ProfileImg>
+												<p>
+													<b>JakobKitzingDesign</b> <br /> sponsored
+												</p>
+											</ProfileInfo>
+											<SwiperImg>
+												<Carousell
+													id="swiper-color"
+													slidesPerView={1}
+													spaceBetween={0}
+													pagination={{
+														clickable: false,
+													}}
+													loop={true}
+													style={{ width: "100%", height: "100%" }}
+												>
+													<SwiperSlide>
+														<ImgContainer>
+															<Image
+																width={1000}
+																height={600}
+																src="/kry-stor/eldler-stor.jpg"
+																alt="Time Line"
+															/>
+														</ImgContainer>
+													</SwiperSlide>
+													<SwiperSlide>
+														<ImgContainer>
+															<Image
+																layout="responsive"
+																width={1000}
+																height={700}
+																src="/kry-stor/ely-stor.jpg"
+																alt="Ely comercial"
+															/>
+														</ImgContainer>
+													</SwiperSlide>
+													<SwiperSlide>
+														<ImgContainer>
+															<Image
+																width={1000}
+																height={560}
+																src="/kry-stor/jury-stor.jpg"
+																alt="Time Line"
+															/>
+														</ImgContainer>
+													</SwiperSlide>
+													<SwiperSlide>
+														<ImgContainer>
+															<Image
+																width={1000}
+																height={600}
+																src="/kry-stor/gyno-stor.jpg"
+																alt="Time Line"
+															/>
+														</ImgContainer>
+													</SwiperSlide>
+												</Carousell>
+											</SwiperImg>
+											<Iconer>
+												<div>
+													<HeartImg />
+													<ChatImg />
+													<PlaneImg />
+												</div>
+												<BookMarkImg />
+											</Iconer>
+											<TextLikes>
+												<b>4m likes</b> <br /> Häng med in i framtiden, alla
+												appar går att finna på JakobKitzingDesign.com
+											</TextLikes>
+										</SecondSlide>
+									</Swipe>
+								</SwiperSlide>
+							</Carousell>
+						</Swipes>
+					)}
 				</div>
 			</KryImg>
 

@@ -19,7 +19,7 @@ const KandidatarbeteKoncept = () => {
 			<div className={styles.koncepts} data-aos="fade-up">
 				<Koncept titel="Koncept A" img="/Kandidat/KonceptA.jpg" />
 				<Koncept titel="Koncept B" img="/Kandidat/KonceptB.jpg" />
-				<Koncept titel="Koncept C" img="/Kandidat/KonceptC.jpg" />
+				<Koncept titel="Koncept C" img="/Kandidat/KonceptC.webp" />
 			</div>
 		</div>
 	);

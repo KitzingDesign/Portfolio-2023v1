@@ -1,5 +1,4 @@
 import React, { useState, useEffect, Fragment } from "react";
-import Typist from "react-typist";
 
 import ReactRotatingText from "react-rotating-text";
 

@@ -28,7 +28,7 @@ const KryPage = () => {
 
 			<DigiLayoutImageSection img="jury-arm" />
 			<DigiLayoutImageSection img="ely-stor-logga" />
-			<DigiLayoutImageSection img="gyno-stor-logga" />
+			<DigiLayoutImageSection img="gyno" />
 			<BoiSection />
 			<Footer />
 		</Fragment>

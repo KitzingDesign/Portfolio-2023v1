@@ -1,34 +1,27 @@
-import HertzSection from "../components/homePage/hertzSection";
+import EmotionsSections from "../components/homePage/emotions";
+import KnowledgeSections from "../components/homePage/knowledgeSection";
 import HomeHeader from "../components/homePage/homeHeader";
 import KandidatarbeteSection from "../components/homePage/kandidatarbeteSection";
 import KrySection from "../components/homePage/digitaliseringSection";
 import ProsexSection from "../components/homePage/prosexSection";
-import Footer from "../components/Layout/footer";
 import styles from "./index.module.css";
 import WithTransition from "../components/HOC/withTransition";
 
-import React, { Fragment, useEffect } from "react";
-import ReactDOM from "react-dom";
-import { motion } from "framer-motion";
+import React from "react";
 
-import Aos from "aos";
 import "aos/dist/aos.css";
-import { TimelineLite } from "gsap";
-
-//imports that makes slide-fullpage function
-// import { FullPage, Slide } from "react-full-page";
 
 import ReactFullpage from "@fullpage/react-fullpage";
-import Navigation from "../components/Layout/Navigation";
-import TextLoop from "../components/UI/textLoop";
-import Nav from "../components/Layout/Navigation";
 import Head from "next/head";
 
-const anchors = ["firstPage", "2", "thirdPage", "fourthPage", "fifthPage"];
-let fadeS1,
-	fadeS2,
-	fadeS3,
-	fadeS4 = false;
+const anchors = [
+	"firstPage",
+	"secondPage",
+	"thirdPage",
+	"fourthPage",
+	"fifthPage",
+	"sixthPage",
+];
 
 const HomePage = () => (
 	<div>
@@ -38,57 +31,39 @@ const HomePage = () => (
 		</Head>
 		<ReactFullpage
 			licenseKey="21BAFFA2-6D8141A7-AAF0A8AC-A0B24480"
-			anchors={anchors}
+			anchors={[
+				"firstPage",
+				"secondPage",
+				"thirdPage",
+				"fourthPage",
+				"fifthPage",
+				"sixthPage",
+			]}
 			navigation={true}
 			animateAnchor={false}
-			onLeave={function (origin, destination) {
-				if (destination.index === 1) {
-					// const r = document.querySelector(":root");
-					// r.style.setProperty("--color", "#fed000");
-
-					fadeS1 = true;
-				} else if (destination.index === 2) {
-					// const r = document.querySelector(":root");
-					// r.style.setProperty("--color", "#c0d1c5");
-
-					fadeS2 = true;
-				} else if (destination.index === 3) {
-					// const r = document.querySelector(":root");
-					// r.style.setProperty("--color", "#e38547");
-					fadeS3 = true;
-				} else if (destination.index === 4) {
-					fadeS4 = true;
-				}
-			}}
+			scrollingSpeed={700}
 			render={({ state, fullpageApi }) => {
 				console.log("render prop change", state, fullpageApi);
-				// if (destination.index === 1) {
-				// 	color = "yellow";
-				// } else if (destination.index === 2) {
-				// 	fadeS2 = true;
-				// } else if (destination.index === 3) {
-				// 	fadeS3 = true;
-				// } else if (destination.index === 4) {
-				// 	fadeS4 = true;
-				// }
-				// eslint-disable-line no-console
 
 				return (
 					<div className={styles.wrapper}>
-						<div className="section ">
+						<div className="section" id="1">
 							<HomeHeader />
 						</div>
-						<div className={`section sectionOne `} id="1">
-							<HertzSection fade={fadeS1} />
+						<div className="section" id="2">
+							<KnowledgeSections />
 						</div>
-						<div className="section">
-							<KandidatarbeteSection fade={fadeS2} />
+						<div className="section" id="3">
+							<EmotionsSections />
 						</div>
-						<div className="section">
-							<KrySection fade={fadeS3} />
+						<div className="section" id="4">
+							<KandidatarbeteSection />
 						</div>
-						<div className="section">
-							<ProsexSection fade={fadeS4} />
+						<div className="section" id="5">
+							<KrySection />
+						</div>
+						<div className="section" id="6">
+							<ProsexSection />
 						</div>
 					</div>
 				);

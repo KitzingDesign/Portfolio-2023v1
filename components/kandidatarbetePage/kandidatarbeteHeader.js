@@ -140,10 +140,9 @@ const KandidatarbeteHeader = () => {
 					height="100%"
 					layout="responsive"
 					objectFit="contain"
-					src="/headerKandidatpng.png"
+					src="/headerKandidatpng.webp"
 					alt="Six Computer Screens"
 				/>
-				{/* <img src="/Macbook-mockup-hertz.jpg" /> */}
 				<Nr>02</Nr>
 			</Img>
 		</Container>

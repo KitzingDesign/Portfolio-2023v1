@@ -1,9 +1,6 @@
 import { Fragment, useEffect } from "react";
-import { useInView } from "react-intersection-observer";
-import { EqualStencilFunc } from "three";
 import AboutContent from "../../components/AboutPage/aboutContent";
 import AboutHeader from "../../components/AboutPage/aboutHeader";
-import WithTransition from "../../components/HOC/withTransition";
 import AOS from "aos";
 import { motion } from "framer-motion";
 

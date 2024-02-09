@@ -1,7 +1,5 @@
 import { motion } from "framer-motion";
 
-import styles from "./withTransition.module.css";
-
 const WithTransition = (OriginalComponent) => {
 	const WT = () => {
 		return (

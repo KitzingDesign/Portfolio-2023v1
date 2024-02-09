@@ -1,0 +1,45 @@
+/* .container {
+	max-width: 100vw;
+	margin: 0 auto;
+	background-color: black;
+	color: white;
+}
+
+.content {
+	width: 70vw;
+	margin: 0 auto;
+} */
+
+/* .divider {
+	height: 1px;
+	background-color: white;
+}
+
+.Bakgrund {
+	padding-top: 12.8rem;
+} */
+
+/* .container p {
+	padding-top: 1.6rem;
+	padding-bottom: 1.6rem;
+} */
+
+/* .copywrite {
+	text-align: right;
+} */
+/* .process {
+	text-align: center;
+	padding-top: 4.8rem;
+
+	padding-bottom: 6.4rem;
+} */
+.profilImg {
+	width: 100%;
+	padding-bottom: 12.8rem;
+}
+
+@media (max-width: 25em) {
+	.content {
+		width: 80vw;
+	}
+}

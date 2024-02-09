@@ -19,7 +19,7 @@ const KandRender = (props) => {
 					height="66%"
 					layout="responsive"
 					objectFit="contain"
-					src={`/Kandidat/solutions/${props.url}.jpg`}
+					src={`/Kandidat/solutions/${props.url}.webp`}
 					alt={props.alt}
 					style={{
 						border: "white solid 2rem",
