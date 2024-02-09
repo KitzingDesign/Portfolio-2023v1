@@ -117,18 +117,18 @@ const AboutContent = () => {
 						<Text>
 							My name is Jakob, and I&apos;m a UX/UI designer, human researcher,
 							product developer, and music lover; everything from electronic
-							music to jazz resonates through my headphones. As a person, I'm
-							outgoing and caring about my surroundings, believing that
+							music to jazz resonates through my headphones. As a person,
+							I&apos;m outgoing and caring about my surroundings, believing that
 							everything is more enjoyable when those around me are happy. My
 							philosophy is that having fun reflects positively on the results.{" "}
 							<br /> <br />
-							As a designer, I'm endlessly curious; I always strive to learn new
-							things and challenge myself. I thrive on working in diverse teams
-							to gain fresh perspectives and learn.
-							<br /> <br /> Currently, I'm pursuing my master's degree in
-							Interaction Design at Chalmers (MSc. Interaction Design and
-							Technologies), where I'm further exploring all aspects of UX and
-							user-friendliness.
+							As a designer, I&apos;m endlessly curious; I always strive to
+							learn new things and challenge myself. I thrive on working in
+							diverse teams to gain fresh perspectives and learn.
+							<br /> <br /> Currently, I&apos;m pursuing my master&apos;s degree
+							in Interaction Design at Chalmers (MSc. Interaction Design and
+							Technologies), where I&apos;m further exploring all aspects of UX
+							and user-friendliness.
 						</Text>
 					</div>
 					<div className={styles.flexSkills}>
@@ -198,7 +198,10 @@ const AboutContent = () => {
 			<Container data-aos="new-animation">
 				<div className={styles.emailContainer}>
 					<h2>Jakob.Kitzing@gmail.com</h2>
-					<p>Don't hesitate to get in touch, I'm always open for a chat!</p>
+					<p>
+						Don&apos;t hesitate to get in touch, I&apos;m always open for a
+						chat!
+					</p>
 				</div>
 			</Container>
 		</Fragment>

@@ -80,7 +80,7 @@ const KandidatarbeteSection = (props) => {
 				id="Text"
 			>
 				<TextContainer>
-					<h2>Bachlor's Thesis</h2>
+					<h2>Bachlor&apos;s Thesis</h2>
 					<p>
 						As a bachelor thesis project, my group&apos;s mission was, together
 						with the design company Boid, to develop the control room of the
