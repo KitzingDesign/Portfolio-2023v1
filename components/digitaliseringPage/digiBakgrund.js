@@ -14,9 +14,9 @@ const DigiBakgrund = () => {
 			<p data-aos="new-animation">Hobby Project - Spring 2020</p>
 
 			<section data-aos="new-animation">
-				As everyone knows, spring 2021 didn't turn out entirely as planned. The
-				pandemic knocked on the door, and many hours were subsequently spent in
-				solitude. To prevent myself from going completely crazy, I started
+				As everyone knows, spring 2021 didn&apos;t turn out entirely as planned.
+				The pandemic knocked on the door, and many hours were subsequently spent
+				in solitude. To prevent myself from going completely crazy, I started
 				working on some small projects to have something to do alongside my
 				studies. This resulted in the creation of five new virtual companies. We
 				&apos;re living in a time where physical contact is starting to be
