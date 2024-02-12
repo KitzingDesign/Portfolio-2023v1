@@ -43,15 +43,15 @@ const KnowledgeBakgrund = () => {
 			<Content>
 				<BackgroundTitle data-aos="fade-up">Bakgrund</BackgroundTitle>
 				<p data-aos="fade-up">
-					Tillsammans med en kursare skapade vi en koncept till en plattform där
-					företag kan dela sina kunskaper, hitta kunniga personer inom specifika
-					ämnen och fråga frågor till hela företaget. För att skapa konceptet
-					utfördes en grundlig user research vilket inkluderade en market
-					research av befintliga lösningar, litterature research, samt
-					intervjuer med människor inom arbetslivet. En prototyp skapades, som
-					sedan utvärderades med potentiella användare, och därefter
-					redesignades ytterligare i beaktning till resultatet av användar
-					testerna.
+					Within the depths of every company lies a wealth of knowledge, often
+					overlooked or forgotten. Recognizing the potential for this knowledge
+					to drive efficiency and innovation, my classmate and I embarked on a
+					mission to unlock its full potential. Together, we developed a
+					platform designed to facilitate the seamless sharing of expertise
+					across all levels of the organization. By simplifying the access to
+					this invaluable information, we aimed to cultivate a culture of
+					collaboration and continuous learning, ultimately pushing our
+					workplace towards greater success.
 				</p>
 				<Divider data-aos="fade-up"></Divider>
 				<CopyRightText data-aos="fade-up">
