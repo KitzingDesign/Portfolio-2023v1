@@ -5,14 +5,15 @@ const KandidatarbeteBakgrund = () => {
 	return (
 		<div className={styles.container}>
 			<div className={styles.textConatiner} data-aos="fade-up">
-				<h2>Utvärdering</h2>
+				<h2>Evaluation</h2>
 				<p>
-					De tre koncepten utvärderades av smältarna med en enkät. Där framkom
-					att koncept A var det konceptet smältarna föredrog. Motiveringarna var
-					att konceptet var öppet, tydligt, proffsigt, hade bra lösning med
-					krokar för dagsförvaring och ett bra styrbord. Konceptet itererades
-					och flera dellösningar från de andra koncepten implementerades. Allt
-					tillsammans kom till slut att bli <b>The Arc...</b>
+					The three concepts were evaluated by the Smältare through a survey. It
+					emerged that Concept A was the preferred concept among the Smältare.
+					The reasons were that the concept was open, clear, professional, had a
+					good solution with hooks for daily storage, and a good control panel.
+					The concept was iterated upon, and several sub-solutions from the
+					other concepts were implemented. Altogether, it eventually became{" "}
+					<b>The Arc...</b>
 				</p>
 			</div>
 			<div className={styles.imgContainer} data-aos="fade-up">

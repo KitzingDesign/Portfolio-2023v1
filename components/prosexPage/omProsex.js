@@ -44,17 +44,17 @@ const OmProsex = () => {
 		<Fragment>
 			<Container>
 				<TextContainer>
-					<h2 data-aos="fade-up">Vad är prosex.?</h2>
+					<h2 data-aos="fade-up">What is prosex.?</h2>
 					<Text data-aos="fade-up">
-						prosex. är teknisk designs sexmästeri och pr-förening. 2019-2020
-						satt jag som pr-ansvarig i prosex. med det härliga gänget ni kan se
-						nedan. Mitt år som sittandes i prosex. var bland det roligaste jag
-						gjort! Att arbeta dag såväl som natt, att lösa problem i stressiga
-						situationer och att alltid försöka få ens arrangemang att bli så bra
-						som möjligt kunde ibland bli lite påfrestande, men att få se ett
-						lyckat evenemang som vi lyckats få ihop gjorde det värt alla dagar i
-						veckan. Ett plus i det hela är att jag även fick utveckla mina
-						kunskaper i adobe suit under tiden.
+						prosex. is the program industrial design engineering at Chalmers PR
+						and event committee. In 2019-2020, I served as the PR manager in
+						prosex., alongside the wonderful team you can see below. My year in
+						prosex. was one really enjoyable experience! Working day and night,
+						solving problems in stressful situations, and always striving to
+						make our events as successful as possible could sometimes be
+						challenging, but seeing a successful event come together made it all
+						worth it. A bonus was that I also got to develop my skills in Adobe
+						Suite during that time.
 					</Text>
 				</TextContainer>
 				<ImgContainer data-aos="fade-up">

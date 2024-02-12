@@ -6,27 +6,28 @@ const DigiBakgrund = () => {
 	return (
 		<div className={styles.container} data-aos="new-animation">
 			{/* <p className={styles.bakgrund}>Bakgrund</p> */}
-			<h2 data-aos="new-animation">Bakgrund</h2>
+			<h2 data-aos="new-animation">Background</h2>
 			<div data-aos="new-animation">
 				<Divider />
 			</div>
 
-			<p data-aos="new-animation">Hobby Project - Våren 2020</p>
+			<p data-aos="new-animation">Hobby Project - Spring 2020</p>
 
 			<section data-aos="new-animation">
-				Som alla vet blev våren 2021 inte helt som planerat. Corona knackade på
-				dörren och därefter spenderades många timmar i ensamhet. För att inte
-				skulle bli helt galen började jag göra lite småprojekt för att ha något
-				att pilla med utöver studierna. Detta resulterade i skapandet av fem nya
-				virtuella företag. Vi lever idag i en tid där fysisk kontakt börjar
-				bytas ut, speciellt under pandemin, något som jag både ser för och
-				nackdelar med. Detta fick mig att fundera, hur långt kan man egentligen
-				dra det? <br />
+				As everyone knows, spring 2021 didn't turn out entirely as planned. The
+				pandemic knocked on the door, and many hours were subsequently spent in
+				solitude. To prevent myself from going completely crazy, I started
+				working on some small projects to have something to do alongside my
+				studies. This resulted in the creation of five new virtual companies. We
+				&apos;re living in a time where physical contact is starting to be
+				replaced, especially during the pandemic, something that I see both
+				advantages and disadvantages to. This made me wonder, how far can one
+				really take it? <br />
 				<br />
-				&#34;Företagen&#34; nedan är skapade av mig för att leka med tanken på
-				hur långt viritualiseringen kan gå innan det blir orimligt. Projektet är
-				även till för att ge en tankeställare, hur mycket går egentligen
-				förlorat när man digitaliserar den mänsklig kontakten?
+				The &quot;companies&quot; below are created by me to play with the idea
+				of how far virtualization can go before it becomes unreasonable. The
+				project is also intended to provoke some thought; how much is really
+				lost when you digitalize human interactions?
 			</section>
 
 			<h3 data-aos="new-animation">Featured Companies</h3>
