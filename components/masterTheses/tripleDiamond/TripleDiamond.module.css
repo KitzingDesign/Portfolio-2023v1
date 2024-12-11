@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 80px;
+  width: 80vw;
+}
+
+.container h2 {
+  font-size: 48px;
+  font-weight: 600;
+  text-align: left;
+  width: 100%;
+}
+
+.container p {
+  font-size: 20px;
+  text-align: left;
+  width: 100%;
+}
+
+.image {
+  width: 80%;
+  height: auto;
+}

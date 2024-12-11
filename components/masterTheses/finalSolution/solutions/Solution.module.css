@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 24px;
+  width: 100%;
+}
+
+.textColumn {
+  flex: 1;
+  padding: 20px;
+}
+
+.textColumn h2 {
+  color: #000;
+
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.textColumn p {
+  font-size: 20px;
+}
+
+.videoColumn {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.video {
+  width: 100%;
+  height: auto;
+}

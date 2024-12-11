@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 20px;
+  width: 80vw;
+  padding: 64px 0px;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 50%;
+}
+
+.textContainer h2 {
+  color: #5145bf;
+
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.textContainer p {
+  color: #000;
+
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.video {
+  width: 50%;
+  border: solid 8px #ffbf6c;
+}
+
+.video video {
+  width: 100%;
+}
