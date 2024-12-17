@@ -79,8 +79,8 @@ const MasterThesisBackground = () => {
             driving, a task once solely performed by humans. This shift has led
             to the emergence of companies offering software and annotation
             services for machine learning, specializing in tasks such as data
-            labeling, categorization, and tracking. This Master's thesis was
-            conducted at one of these annotation companies, Kognic.
+            labeling, categorization, and tracking. This Master`&lsquo;`s thesis
+            was conducted at one of these annotation companies, Kognic.
             <br /> <br />
             When annotating, users often outline objects and adjust them to
             ensure a perfect fit, whether working with 2D images or 3D point

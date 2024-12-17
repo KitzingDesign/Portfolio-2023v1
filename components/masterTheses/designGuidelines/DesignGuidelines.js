@@ -28,6 +28,7 @@ const DesignGuidelines = () => {
           className={styles.link}
           href="https://odr.chalmers.se/items/f15b9522-5042-4aa8-8755-78b12e9462a2"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Micro-Solutions for Micro-Adjustments
         </a>

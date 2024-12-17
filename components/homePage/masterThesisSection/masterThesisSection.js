@@ -21,6 +21,7 @@ const Container = styled.div`
   margin: 0 auto;
   display: flex;
   align-items: center;
+  gap: 16px;
   @media (orientation: portrait) {
     flex-direction: column-reverse;
     justify-content: center;
@@ -31,6 +32,7 @@ const Container = styled.div`
     height: 100vh;
     max-height: -webkit-fill-available;
     max-width: 80vw;
+    gap: 0px;
   }
 `;
 const TextContainer = styled.div`
@@ -68,10 +70,7 @@ const MasterThesisSection = (props) => {
         }
       >
         <TextContainer>
-          <h2>
-            Master's Thesis <br />
-            Micro-Solutions for Micro-Adjustments
-          </h2>
+          <h2>Master's Thesis</h2>
           <Text>
             The autonomous vehicles sector has brought computerization into
             driving, a task that previously was solely for humans. This results
@@ -95,7 +94,7 @@ const MasterThesisSection = (props) => {
             height="100%"
             layout="responsive"
             objectFit="contain"
-            src="/KonwledgeSharingMockup.webp"
+            src="/masterThesis/HeroImg.png"
             alt="Mockup Knowledge Shareing "
           />
         </ImgContainer>

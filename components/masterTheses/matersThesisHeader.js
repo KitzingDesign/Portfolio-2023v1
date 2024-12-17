@@ -127,7 +127,7 @@ const MasterThesisHeader = () => {
           <Year>2024</Year>
           <Season>Spring</Season>
         </Vertical>
-        <Above>Master's Thesis</Above>
+        <Above>Master`&lsquo;`s Thesis</Above>
       </Headings>
       <Img>
         <Image
