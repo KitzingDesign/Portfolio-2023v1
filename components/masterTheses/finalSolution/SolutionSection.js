@@ -6,7 +6,7 @@ const solutionData = [
   {
     title: "Line Assist",
     description:
-      "Line Assist helps annotators align cuboids to the ground by displaying dotted lines extending from the cuboid's base. These lines adjust in width and color based on settings and object class, providing visual cues for rotation.",
+      "Line Assist helps annotators align cuboids to the ground by displaying dotted lines extending from the cuboid`&lsquo;`s base. These lines adjust in width and color based on settings and object class, providing visual cues for rotation.",
     videoLink: "/masterThesis/LineAssistVideo.mp4",
   },
   {

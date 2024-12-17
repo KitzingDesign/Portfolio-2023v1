@@ -32,11 +32,11 @@ const MasterThesisPage = () => {
   return (
     <Fragment>
       <Head>
-        <title>Master's Thesis</title>
+        <title>Master`&lsquo;`s Thesis</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <Sticky>
-        Master's Thesis - Interaction Design and Technologies - 2024
+        Master`&lsquo;`s Thesis - Interaction Design and Technologies - 2024
       </Sticky>
       <MasterThesisHeader />
       <MasterThesisBackground />
