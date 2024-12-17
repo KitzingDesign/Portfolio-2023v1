@@ -8,7 +8,7 @@ const PhaseOne = () => {
         <div className={styles.textColumn}>
           <h2>Understand & Define</h2>
           <p>
-            In the understand and define phse of our project, we focused on
+            In the understand and define phase of our project, we focused on
             understanding the problem space and defining a requirement
             specification that would serve as the foundation for generating
             ideas. To achieve this, we gathered information from multiple
