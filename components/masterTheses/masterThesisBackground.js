@@ -88,14 +88,14 @@ const MasterThesisBackground = () => {
             sufficient quality is known as micro-adjustments, and it presents an
             optimization challenge within the annotation platform. However,
             achieving expert-level accuracy is crucial to ensuring the
-            annotations are as close to the "ground truth" as possible,
-            providing the necessary data for machine learning models to train
-            effectively. Given the scale of the datasets involved, the time
-            spent on micro-adjustments can lead to significant inefficiencies.
-            The goal of this research was to analyze annotator workflows,
-            propose solutions to reduce micro-adjustments, and develop design
-            guidelines aimed at reducing the need for micro-adjustments in
-            annotation platforms.
+            annotations are as close to the &ldquo;ground truth&ldquo; as
+            possible, providing the necessary data for machine learning models
+            to train effectively. Given the scale of the datasets involved, the
+            time spent on micro-adjustments can lead to significant
+            inefficiencies. The goal of this research was to analyze annotator
+            workflows, propose solutions to reduce micro-adjustments, and
+            develop design guidelines aimed at reducing the need for
+            micro-adjustments in annotation platforms.
           </BackgroundText>
         </TextContainer>
       </Content>
