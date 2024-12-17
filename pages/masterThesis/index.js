@@ -14,6 +14,7 @@ import PhaseOne from "../../components/masterTheses/phase1/PhaseOne";
 import PhaseTwo from "../../components/masterTheses/phase2/PhaseTwo";
 import PhaseThree from "../../components/masterTheses/phase3/PhaseThree";
 import SolutionSection from "../../components/masterTheses/finalSolution/SolutionSection";
+import DesignGuidelines from "../../components/masterTheses/designGuidelines/DesignGuidelines";
 
 //emotion styles
 const Sticky = styled.p`
@@ -46,6 +47,7 @@ const MasterThesisPage = () => {
       <PhaseTwo />
       <PhaseThree />
       <SolutionSection />
+      <DesignGuidelines />
       <Footer />
     </Fragment>
   );

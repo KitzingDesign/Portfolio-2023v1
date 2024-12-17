@@ -3,25 +3,24 @@ import styles from "./Solution.module.css";
 
 const Solution = ({ title, text, videoLink, videoOnLeft }) => {
   return (
-    <div className={styles.container}>
+    <>
       {videoOnLeft ? (
-        <>
+        <div className={styles.containerLeft}>
           <video autoPlay loop muted className={styles.videoColumn}>
             <source
               className={styles.video}
               src={videoLink}
               type="video/mp4"
               alt="Video showcasing Micro Adjustments"
-              style={{ maxWidth: "100%" }}
             />
           </video>
           <div className={styles.textColumn}>
             <h2>{title}</h2>
             <p className={styles.text}>{text}</p>
           </div>
-        </>
+        </div>
       ) : (
-        <>
+        <div className={styles.container}>
           <div className={styles.textColumn}>
             <h2 className={styles.title}>{title}</h2>
             <p className={styles.text}>{text}</p>
@@ -35,9 +34,9 @@ const Solution = ({ title, text, videoLink, videoOnLeft }) => {
               style={{ maxWidth: "100%" }}
             />
           </video>
-        </>
+        </div>
       )}
-    </div>
+    </>
   );
 };
 

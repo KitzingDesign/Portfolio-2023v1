@@ -3,9 +3,7 @@ const MicroAdjustments = () => {
   return (
     <div className={styles.container}>
       <div className={styles.textContainer}>
-        <h2>
-          What is <br /> Micro-Adjustments
-        </h2>
+        <h2>What is Micro-Adjustments</h2>
         <p>
           The act of making adjustments to annotations of already sufficient
           quality is called micro-adjustments, and is one optimization problem

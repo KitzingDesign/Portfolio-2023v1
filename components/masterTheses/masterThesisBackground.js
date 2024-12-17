@@ -15,13 +15,22 @@ const Content = styled.div`
     padding-top: 1.6rem;
     padding-bottom: 1.6rem;
   }
+  @media (max-width: 90em) {
+    width: 85vw;
+  }
   @media (max-width: 25em) {
     width: 80vw;
   }
 `;
 const BackgroundTitle = styled.h2`
   padding-top: 12.8rem;
+  font-size: 64px;
+  font-weight: 600;
+  @media (max-width: 64em) {
+    font-size: 48px;
+  }
   @media (max-width: 84em) {
+    font-size: 24px;
     padding-top: 0rem;
   }
   @media (orientation: portrait) {
@@ -46,6 +55,13 @@ const CopyRightText = styled.p`
 
 const BackgroundText = styled.p`
   font-size: 24px;
+  @media (max-width: 84em) {
+    font-size: 16px;
+    padding-top: 0rem;
+  }
+  @media (orientation: portrait) {
+    padding-bottom: 0px;
+  }
 `;
 
 const MasterThesisBackground = () => {

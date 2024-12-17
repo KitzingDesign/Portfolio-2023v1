@@ -127,15 +127,16 @@ const MasterThesisHeader = () => {
           <Year>2024</Year>
           <Season>Spring</Season>
         </Vertical>
-        <Above>Master's Thesis </Above>
+        <Above>Master's Thesis</Above>
       </Headings>
       <Img>
         <Image
           width="100%"
           height="100%"
+          borderRadius="10px"
           layout="responsive"
           objectFit="contain"
-          src="/masterThesis/masterThesisHero.png"
+          src="/masterThesis/HeroImg.png"
           alt="Mockup on computer screen"
         />
         {/* <img src="/.jpg" /> */}

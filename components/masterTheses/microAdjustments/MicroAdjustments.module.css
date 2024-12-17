@@ -5,22 +5,20 @@
   align-items: center;
   justify-content: center;
   gap: 16px;
-  margin-top: 20px;
+  margin-top: 240px;
   width: 80vw;
-  padding: 64px 0px;
 }
 
 .textContainer {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 8px;
   width: 50%;
 }
 
 .textContainer h2 {
   color: #5145bf;
-
-  font-size: 64px;
+  font-size: 48px;
   font-style: normal;
   font-weight: 600;
 }
@@ -41,4 +39,40 @@
 
 .video video {
   width: 100%;
+}
+
+@media (max-width: 90em) {
+  .container {
+    width: 85vw;
+  }
+  .textContainer h2 {
+    font-size: 40px;
+  }
+  .textContainer p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 25em) {
+  .container {
+    flex-direction: column-reverse;
+    margin-top: 80px;
+
+    width: 85vw;
+  }
+
+  .textContainer {
+    width: 100%;
+  }
+  .textContainer h2 {
+    font-size: 32px;
+  }
+  .textContainer p {
+    font-size: 16px;
+  }
+
+  .video {
+    width: 100%;
+    border: solid 8px #ffbf6c;
+  }
 }

@@ -6,8 +6,8 @@ const TripleDiamond = () => {
       <h2>Design Approach</h2>
       <p>
         For our thesis project with Kognic, we used the Triple Diamond design
-        approach to tackle the issue of <br /> micro-adjustments in annotations.
-        This approach helped us structure the design process into three distinct
+        approach to tackle the issue of micro-adjustments in annotations. This
+        approach helped us structure the design process into three distinct
         phases.
       </p>
       <img

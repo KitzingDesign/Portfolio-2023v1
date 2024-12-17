@@ -42,3 +42,36 @@
   width: 80%;
   height: auto;
 }
+
+@media (max-width: 90em) {
+  .innerContainer {
+    width: 85%;
+  }
+  .textColumn {
+    padding: 0;
+  }
+}
+
+@media (max-width: 25em) {
+  .container {
+    width: 100%;
+    padding: 0px;
+  }
+  .innerContainer {
+    flex-direction: column-reverse;
+    width: 95%;
+    padding: 0px;
+  }
+  .imageColumn {
+    width: 100%;
+  }
+  .textColumn {
+    width: 100%;
+  }
+  .textColumn h2 {
+    font-size: 32px;
+  }
+  .textColumn p {
+    font-size: 16px;
+  }
+}

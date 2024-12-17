@@ -19,7 +19,7 @@ const solutionData = [
     title: "Process Wizard",
     description:
       "Sequence Process Wizard streamlines the sequence annotation workflow by guiding annotators through optimized steps to minimize micro-adjustments. Positioned conveniently above the sequence bar, it features three phases: Process Guide, Edit Cuboid, and Edit Keyframes. Annotators are led through tasks like aligning, resizing, and scaling cuboids using intuitive tools and visual cues. Progress is indicated with clear step states and tooltips, ensuring smooth navigation. ",
-    videoLink: "/masterThesis/MicroAdjustments.mp4",
+    videoLink: "/masterThesis/ProcessWizardVideo.mp4",
   },
 ];
 
@@ -27,6 +27,7 @@ const SolutionSection = () => {
   return (
     <div className={styles.container}>
       <h2 className={styles.header}>The Final Solutions</h2>
+      <div className={styles.divider} />
       <div className={styles.part}>
         <Solution
           title={solutionData[0].title}
