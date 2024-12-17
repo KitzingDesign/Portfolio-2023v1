@@ -6,7 +6,7 @@ const Solution = ({ title, text, videoLink, videoOnLeft }) => {
     <>
       {videoOnLeft ? (
         <div className={styles.containerLeft}>
-          <video autoPlay loop muted className={styles.videoColumn}>
+          <video autoPlay loop muted playsInline className={styles.videoColumn}>
             <source
               className={styles.video}
               src={videoLink}

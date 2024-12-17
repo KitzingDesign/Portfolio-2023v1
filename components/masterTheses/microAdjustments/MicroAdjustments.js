@@ -19,9 +19,10 @@ const MicroAdjustments = () => {
         </p>
       </div>
       <div style={{ flex: 1 }} className={styles.video}>
-        <video autoPlay loop muted playsinline>
+        <video autoplay loop muted playsinline>
           <source
             src="/masterThesis/MicroAdjustments.mp4"
+            preload="auto"
             type="video/mp4"
             alt="Video showcasing Micro Adjustments"
             style={{ maxWidth: "100%" }}
