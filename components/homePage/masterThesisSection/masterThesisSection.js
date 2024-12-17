@@ -70,7 +70,7 @@ const MasterThesisSection = (props) => {
         }
       >
         <TextContainer>
-          <h2>Master's Thesis</h2>
+          <h2>Master`&lsquo;`s Thesis</h2>
           <Text>
             The autonomous vehicles sector has brought computerization into
             driving, a task that previously was solely for humans. This results
