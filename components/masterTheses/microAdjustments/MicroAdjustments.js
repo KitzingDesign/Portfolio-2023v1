@@ -19,7 +19,7 @@ const MicroAdjustments = () => {
         </p>
       </div>
       <div style={{ flex: 1 }} className={styles.video}>
-        <video autoPlay loop muted>
+        <video autoPlay loop muted playsinline>
           <source
             src="/masterThesis/MicroAdjustments.mp4"
             type="video/mp4"
