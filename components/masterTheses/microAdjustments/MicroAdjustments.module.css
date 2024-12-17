@@ -39,7 +39,6 @@
 
 .video video {
   width: 100%;
-  pointer-events: none; /* Disable all mouse and touch interactions */
 }
 
 @media (max-width: 90em) {
