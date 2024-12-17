@@ -62,7 +62,7 @@
   }
   .innerContainer {
     flex-direction: column-reverse;
-    width: 95%;
+    width: 85%;
   }
   .imageColumn {
     width: 100%;

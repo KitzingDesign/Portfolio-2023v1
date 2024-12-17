@@ -54,12 +54,12 @@
 
 @media (max-width: 25em) {
   .container {
-    width: 100%;
+    width: 95%;
     padding: 0px;
   }
   .innerContainer {
     flex-direction: column-reverse;
-    width: 95%;
+    width: 85%;
     padding: 0px;
   }
   .imageColumn {
