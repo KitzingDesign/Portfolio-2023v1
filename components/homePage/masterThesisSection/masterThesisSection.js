@@ -70,14 +70,14 @@ const MasterThesisSection = (props) => {
         }
       >
         <TextContainer>
-          <h2>Master`&lsquo;`s Thesis</h2>
+          <h2>Master&lsquo;s Thesis</h2>
           <Text>
             The autonomous vehicles sector has brought computerization into
             driving, a task that previously was solely for humans. This results
             in companies providing software and annotation services for machine
             learning, helping with labeling, categorizing, and tracking data.
-            This Master`&lsquo;`s thesis was conducted at one of these
-            annotation companies, Kognic.
+            This Master&lsquo;s thesis was conducted at one of these annotation
+            companies, Kognic.
           </Text>
           <ProjectLink link="/masterThesis" />
         </TextContainer>
