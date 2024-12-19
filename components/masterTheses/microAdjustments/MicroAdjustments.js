@@ -11,8 +11,8 @@ const MicroAdjustments = () => {
           expert-level quality to generate as close as possible to &lsquo;ground
           truth&lsquo;, a reality for the machine learning model to train on.
           Since the process handles huge datasets, the time spent on
-          micro-adjustments results in major time losses. Our goal with was to
-          to analyze annotator workflows, propose one or multiple solutions to
+          micro-adjustments results in major time losses. Our goal was to to
+          analyze annotator workflows, propose one or multiple solutions to
           improve the way annotators work with object annotation, and create
           general design guidelines for the reduction of micro-adjustments in
           annotation platforms.

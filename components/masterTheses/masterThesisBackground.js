@@ -80,7 +80,8 @@ const MasterThesisBackground = () => {
             to the emergence of companies offering software and annotation
             services for machine learning, specializing in tasks such as data
             labeling, categorization, and tracking. This Master&lsquo;s thesis
-            was conducted at one of these annotation companies, Kognic.
+            was conducted at a company providing a platform for creating these
+            annotations, Kognic.
             <br /> <br />
             When annotating, users often outline objects and adjust them to
             ensure a perfect fit, whether working with 2D images or 3D point
