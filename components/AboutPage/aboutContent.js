@@ -66,23 +66,32 @@ const Text = styled.p`
 const AboutContent = () => {
   const designList = [
     "Photoshop",
-
     "Illustrator",
-    "Indesign",
+    "InDesign",
+    "After Effects",
     "XD",
     "Figma",
     "Fusion",
     "Key Shot",
+    "Blender",
+    "CATIA",
   ];
   const generellList = [
     "UX/UI",
     "User Research",
-    "Rappid Prototyping",
-    "Ergonomi",
+    "Rapid Prototyping",
+    "Ergonomic Design",
     "Wireframing",
     "Usability",
+    "interaction design",
   ];
-  const programmingList = ["CSS/HTML", "JS", "React/next.JS", "Python"];
+  const programmingList = [
+    "CSS/HTML",
+    "JS",
+    "React/next.JS",
+    "Python",
+    "node.js",
+  ];
 
   const [ref, isVisible] = useInView({
     threshold: 0.9,
@@ -178,7 +187,7 @@ const AboutContent = () => {
             MSc. Computer Science <i>(Exchange studies fall 2023)</i>
           </h3>
           <p>
-            <i>Institution Tecnico Lisboa</i>
+            <i>Instituto Técnico Lisboa</i>
           </p>
           <h3>
             MSc. Interaction Design and Technologies{" "}
