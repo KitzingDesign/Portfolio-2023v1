@@ -76,8 +76,8 @@ const MasterThesisSection = (props) => {
             driving, a task that previously was solely for humans. This results
             in companies providing software and annotation services for machine
             learning, helping with labeling, categorizing, and tracking data.
-            This Master&lsquo;s thesis was conducted at one of these annotation
-            companies, Kognic.
+            This Master&lsquo;s thesis was conducted together with a company
+            that provides an annotation platform, Kognic.
           </Text>
           <ProjectLink link="/masterThesis" />
         </TextContainer>
