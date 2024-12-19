@@ -36,7 +36,7 @@ const MasterThesisPage = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <Sticky>
-        Master`&lsquo;`s Thesis - Interaction Design and Technologies - 2024
+        Master&lsquo;s Thesis - Interaction Design and Technologies - 2024
       </Sticky>
       <MasterThesisHeader />
       <MasterThesisBackground />
