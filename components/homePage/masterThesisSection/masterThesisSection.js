@@ -95,7 +95,7 @@ const MasterThesisSection = (props) => {
             layout="responsive"
             objectFit="contain"
             src="/masterThesis/HeroImg.png"
-            alt="Mockup Knowledge Shareing "
+            alt="Mockup Knowledge Sharing "
           />
         </ImgContainer>
       </div>

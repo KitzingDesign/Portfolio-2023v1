@@ -133,13 +133,13 @@ const AboutContent = () => {
           </div>
           <div className={styles.flexSkills}>
             <div>
-              <h2 data-aos="fade-up">Generella</h2>
+              <h2 data-aos="fade-up">Skills</h2>
               <div ref={refTwo}>
                 {isVisableTwo ? <Skills skillList={generellList} /> : null}
               </div>
             </div>
             <div>
-              <h2 data-aos="fade-up">Design</h2>
+              <h2 data-aos="fade-up">Design Tools</h2>
               <div ref={refThree}>
                 {isVisableThree ? <Skills skillList={designList} /> : null}
                 {/* <Skills text="Photoshop" />
@@ -166,7 +166,7 @@ const AboutContent = () => {
       </Container>
       <div className={styles.educationContainer} data-aos="fade-right">
         <Container>
-          <h2>Work Experince</h2>
+          <h2>Work Experience</h2>
           <h3>
             Product Developer<i> - UX Designer (Summer internship 2023)</i>
           </h3>
@@ -175,7 +175,7 @@ const AboutContent = () => {
           </p>
           <h2>Education</h2>
           <h3>
-            MSc. Computer Sience <i>(Exchange studies fall 2023)</i>
+            MSc. Computer Science <i>(Exchange studies fall 2023)</i>
           </h3>
           <p>
             <i>Institution Tecnico Lisboa</i>
