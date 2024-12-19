@@ -83,7 +83,7 @@ const KandidatarbeteBakgrund = () => {
 	return (
 		<Container>
 			{/* <p className={styles.bakgrund}>Bakgrund</p> */}
-			<h2 data-aos="fade-up">Bakgrund</h2>
+			<h2 data-aos="fade-up">Background</h2>
 			<Divider color="black" />
 
 			<p data-aos="fade-up">
@@ -91,26 +91,27 @@ const KandidatarbeteBakgrund = () => {
 			</p>
 
 			<section data-aos="fade-up">
-				Vi som kandidatgrupp fick som arbete att tillsammans med företaget Boid
-				ta fram ett nytt mordaniserat kontrollrum för legeringsverket Vargön
-				Alloys AB. I nuläget har Vargön fyra st kontrollrum, ett vid vadera ugn.
-				Projektets mål var att samla dessa fyra kontrollrum till ett stort
-				gemensamt kontrollrum, så att styrningen sker remote från ugnen. <br />
+				In our bachelor thesis group, we were tasked with developing a new,
+				modernized control room for the alloy plant Vargön Alloys AB in
+				collaboration with the company Boid. Currently, Vargön has four control
+				rooms, one for each furnace. The goal of the project was to consolidate
+				these four control rooms into one large, shared control room, enabling
+				remote control of the furnaces. <br />
 				<br />
-				Detta resulterade i en del förändringar då mycket av arbetet påverkas av
-				just närheten till ugnen. Vår del i projektet var att skapa ett koncept
-				för Smältarens arbetsplats. Smältarens arbetsuppgifter är att styra
-				ugnen genom att bland annat, fylla på material, styra temperaturen och
-				övervaka ugnen ifall något skulle gå fel. Utöver Boid ingick även
-				företaget Guard AB i projektet, deras ansvar var att skapa självaste
-				automationen till ugnen.
+				The design involved numerous considerations due to the significant
+				influence of proximity to the furnace on the work. Our role in the
+				project was to conceptualize the workplace for the Smältare. The
+				Smältarens responsibilities include controlling the furnace by adding
+				materials, adjusting the temperature, and monitoring the furnace for
+				malfunctions. In addition to Boid, the company Guard AB was also
+				involved in the project, responsible for creating the automation system
+				for the furnace itself.
 				<br />
-				<br /> Att få jobba i ett större projekt var mycket lärorikt då det hela
-				tiden under projektets gång kom nya upptäckter vilket vi var tvungna att
-				förhålla oss till. Detta ledde till att vi hela tiden var tvugna att
-				vara öppensinnade och flexibla för att kunna skapa ett så bra koncept
-				som möjligt för en fungerande helhet. Nedan presenteras de olika faserna
-				i arbetet kortfattat.
+				<br /> Working on a larger project was highly instructive as new
+				discoveries emerged throughout the project that required adaptation.
+				This demanded an open-minded and flexible approach to ensure the optimal
+				functioning of the new control room as a whole. Below, the different
+				phases of the work are briefly outlined.
 			</section>
 
 			<h3 data-aos="fade-up">Collaberation Between</h3>

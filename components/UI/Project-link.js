@@ -48,7 +48,7 @@ const ProjectLink = (props) => {
 		<Container>
 			<Link href={props.link} passHref={true}>
 				<TheLink>
-					<p>Utforska Projektet</p> <Arrow />
+					<p>Learn more</p> <Arrow />
 				</TheLink>
 			</Link>
 		</Container>

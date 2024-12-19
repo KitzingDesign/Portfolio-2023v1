@@ -119,7 +119,7 @@ const KrySection = (props) => {
 	return (
 		<Container>
 			<Content>
-				<h2>En Digitaliserad Värld</h2>
+				<h2>A Digitalized World</h2>
 				<Appar>
 					<Item>
 						<div
@@ -175,7 +175,7 @@ const KrySection = (props) => {
 				<TheLink>
 					<Link href="/digitalisering" passHref={true}>
 						<ProjectLink>
-							<UtforskaText>Utforska Projektet</UtforskaText>
+							<UtforskaText>Learn more</UtforskaText>
 							<Arrow />
 						</ProjectLink>
 					</Link>
