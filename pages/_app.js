@@ -9,16 +9,16 @@ import { useEffect } from "react";
 import Head from "next/head";
 
 function MyApp({ Component, pageProps, router }) {
-	return (
-		<Layout>
-			<Head>
-				<meta name="viewport" content="width=device-width, initial-scale=1" />
-			</Head>
-			<AnimatePresence exitBeforeEnter>
-				<Component {...pageProps} key={router.route} />
-			</AnimatePresence>
-		</Layout>
-	);
+  return (
+    <Layout>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
+      <AnimatePresence exitBeforeEnter>
+        <Component {...pageProps} key={router.route} />
+      </AnimatePresence>
+    </Layout>
+  );
 }
 
 export default MyApp;

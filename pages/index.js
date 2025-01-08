@@ -15,6 +15,7 @@ import ReactFullpage from "@fullpage/react-fullpage";
 import Head from "next/head";
 import MasterThesis from "./masterThesis";
 import MasterThesisSection from "../components/homePage/masterThesisSection/masterThesisSection";
+import ToastModal from "../components/UI/toastModal/ToastModal";
 
 const anchors = [
   "firstPage",
