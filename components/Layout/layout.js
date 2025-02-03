@@ -15,7 +15,7 @@ export default function Layout({ children }) {
 
       {matPopup && (
         <ToastModal
-          message="I’ve coded an online cook book! Want to check it out?"
+          message="I’ve coded an online cookbook! Want to check it out?"
           buttonText="Bring me there!"
           onButtonClick={() => {}}
           onClose={closePopup}
