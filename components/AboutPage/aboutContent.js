@@ -133,11 +133,11 @@ const AboutContent = () => {
               <br /> <br />
               As a designer, I&apos;m always curious and eager to learn new
               things. I love challenging myself and working with diverse teams
-              to get fresh ideas and perspectives. I'm especially excited about
-              new technologies like AI and ML and how they can improve how we
-              work with user experiences. To deepen my understanding of how new
-              technologies can be utilized, I actively explore AI-powered tools
-              to enhance my design process and create more intuitive user
+              to get fresh ideas and perspectives. I&apos;m especially excited
+              about new technologies like AI and ML and how they can improve how
+              we work with user experiences. To deepen my understanding of how
+              new technologies can be utilized, I actively explore AI-powered
+              tools to enhance my design process and create more intuitive user
               interactions.
               <br /> <br /> I&apos;ve a Master&apos;s degree in Interaction
               Design and Technologies from Chalmers (MSc. Interaction Design and
