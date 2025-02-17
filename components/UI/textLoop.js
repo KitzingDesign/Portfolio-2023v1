@@ -20,6 +20,7 @@ const TextLoop = () => {
             "UX-Designer",
             "UI-Designer",
             "Product Designer",
+            "AI Enthusiast",
             "Frontend Developer",
             "Food Enthusiast",
             "Interaction Designer",
