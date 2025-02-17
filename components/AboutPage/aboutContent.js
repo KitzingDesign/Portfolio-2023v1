@@ -129,11 +129,16 @@ const AboutContent = () => {
               music to jazz resonates through my headphones. As a person,
               I&apos;m outgoing and caring about my surroundings, believing that
               everything is more enjoyable when those around me are happy. My
-              philosophy is that having fun reflects positively on the results.{" "}
+              philosophy is that having fun reflects positively on the results.
               <br /> <br />
-              As a designer, I&apos;m endlessly curious; I always strive to
-              learn new things and challenge myself. I thrive on working in
-              diverse teams to gain fresh perspectives and learn.
+              As a designer, I&apos;m always curious and eager to learn new
+              things. I love challenging myself and working with diverse teams
+              to get fresh ideas and perspectives. I'm especially excited about
+              new technologies like AI and ML and how they can improve how we
+              work with user experiences. To deepen my understanding of how new
+              technologies can be utilized, I actively explore AI-powered tools
+              to enhance my design process and create more intuitive user
+              interactions.
               <br /> <br /> I&apos;ve a Master&apos;s degree in Interaction
               Design and Technologies from Chalmers (MSc. Interaction Design and
               Technologies), where I got to exploring all aspects of UX design
